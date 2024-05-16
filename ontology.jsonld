@@ -1,0 +1,3842 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "Electron conductor in an electrochemical cell connected to the external circuit."
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "at an anode, electrons are produced in a galvanic cell or extracted in an electrolytic cell"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "electrode of an electrochemical cell through which net electric current flows and at which the predominating electrochemical reaction is an oxidation"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "the anode is the negative electrode during discharge and the positive electrode during charge"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "the concepts of “anode” and “cathode” are related only to the direction of electron flow, not to the polarity of the electrodes"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_c94c041b_8ea6_43e7_85cc_d2bce7785b4c"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "by convention, an oxidation reaction occurs during discharge"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/isComponentOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/BatteryCell"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasSafetyFeature"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/SafetyFeature"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "0"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ExternalStructure"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/include"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "0"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/BMS"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/isManagedBy"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoatedElectrode"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_328c6e36_3706_4d92_abae_432fa3adb2a0"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "a cell baffle has a second function in protecting the plate pack from damage by objects inserted through the filling hole"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CounterElectrode"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Electrolyte"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/BatteryCell"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/monitors"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/BatteryCell"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_3979cd56_6256_414d_966c_7f723bf71e37"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_49909cd1_44f4_41b4_877a_82a52845a5cb"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_872b11e1_8bb3_4a2a_af90_bbaa0055d01e"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoatedElectrode"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CounterElectrode"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_35c650ab_3b23_4938_b312_1b0dede2e6d5"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "electrode of an electrochemical cell through which net electric current flows and at which the predominating electrochemical reaction is a reduction"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Electrolyte"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/InsulationRing"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoinCell"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/isShapedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrodeShaping"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/undergo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/PostCoatingOperation"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasCurrentCollector"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_212af058_3bbb_419f_a9c6_90ba9ebb3706"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/WetCoatedElectrode"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/performedOn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoatingDevice"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ShapingDevice"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/isAppliedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/DoctorBlade"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_35c650ab_3b23_4938_b312_1b0dede2e6d5"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "the cathode is the positive electrode during discharge and the negative electrode during charge"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/isAppliedOn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_212af058_3bbb_419f_a9c6_90ba9ebb3706"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasActiveMaterial"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_81833d8a_b03d_4250_be84_6385415beb01"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasBinder"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_68eb5e35_5bd8_47b1_9b7f_f67224fa291e"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasConductiveAdditive"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrodeSlurry"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrodeSlurryPreprationDevice"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasSolvent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasParameter"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/MUSICODE/Onto4OLAE/DeviceParameter"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/isComponentOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/BatteryCell"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_74459386_875c_4303_b774_60125b599d06"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_35c650ab_3b23_4938_b312_1b0dede2e6d5"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "the concepts of “anode” and “cathode” are related only to the direction of electron flow, not to the polarity of the electrodes"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CounterElectrode"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ReferenceElectrode"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/WorkingElectrode"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/SwagelokCell"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/hasOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/DryCoatedElectrode"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/isDriedthrough"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/DryingDevice"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/isComponentOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/BatteryCell"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "DIN EN 14943:2006-03"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Conversion of materials and assembly of components for the manufacture of products"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Technology"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Technology is the application of knowledge for achieving practical goals in a reproducible way."
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "https://www.collinsdictionary.com/it/dizionario/inglese/technology"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Technology refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes."
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_a0fcb105_587f_45d8_a89a_46dc8f745069"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "a jacket may be made of metal (insulated from the cell terminals), plastic, paper or other suitable material"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "ISO 14034:2016-11"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "application of scientific knowledge, tools, techniques, crafts or systems in order to solve a problem or to achieve an objective which can result in a product or process"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "EN 16603-11:2019-11"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "application of scientific knowledge, tools, techniques, crafts, systems or methods of organization in order to solve a problem or achieve an objective"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_a2f4dca3_829f_412b_9025_bd7581aad82a"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "a valve has a characteristic venting or opening and closing pressure"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.iso.org/obp/ui/#iso:std:iso:15531:-1:ed-1:v1:en:term:3.6.22"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "ISO 15531-1:2004\nmanufacturing: function or act of converting or transforming material from raw material or semi-finished state to a state of further completion"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.iso.org/obp/ui/#iso:std:iso:18435:-1:ed-1:v1:en:term:3.16"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "ISO 18435-1:2009\nmanufacturing process: set of processes in manufacturing involving a flow and/or transformation of material, information, energy, control, or any other element in a manufacturing area"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_ae56cce3_7a7c_4e53_bb58_31e0d642d47e"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "this flame front may originate from a spark or an external naked flame igniting combustible electrolysis gas"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_d3e2d213_d078_4b9a_8beb_62f063e57d69"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "in a secondary battery these operations may consist of a sequence of a discharge followed by a charge or a charge followed by a discharge under specified conditions"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_d3e2d213_d078_4b9a_8beb_62f063e57d69"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "this sequence may include rest periods"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/POLIS/BA/ConductiveSalt"
+    }, {
+      "@id" : "http://w3id.org/POLIS/BA/ElectrolyteAdditives"
+    }, {
+      "@id" : "http://w3id.org/POLIS/BA/ElectrolyteSolvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_aff732a9_238a_4734_977c_b2ba202af126"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en",
+    "@value" : "by convention, a reduction reaction occurs during discharge"
+  } ]
+}, {
+  "@id" : "http://emmo.info/battery#battery_4dfa5c98_e185_456b_9f06_89364ac637e5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BatteryBase"
+  } ]
+}, {
+  "@id" : "http://emmo.info/battery#battery_5029a2e2_3f59_4f28_a6c4_bc6a28e75a66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BatteryCrate"
+  } ]
+}, {
+  "@id" : "http://emmo.info/battery#battery_9acfeea6_ca7f_4b97_9844_c38edf6387ec",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BatteryModule"
+  } ]
+}, {
+  "@id" : "http://emmo.info/battery#battery_af472269_bff7_4aa1_95e9_15666a350fc4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BatteryRack"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Alternative definition: Half-cell consisting of at least one electron conductor and at least one ionic conductor (electrolyte). - Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019)"
+  }, {
+    "@language" : "en",
+    "@value" : "Electron conductor in an electrochemical cell connected to the external circuit."
+  }, {
+    "@language" : "en",
+    "@value" : "In some electroanalytical techniques (conductometry and differential potentiometry), two indicator electrodes are used. For many analytical measurements in cells with current flow, a three-electrode cell is used."
+  }, {
+    "@language" : "en",
+    "@value" : "Many types of electrodes are used. These may be classified into groups according to their composition, form and size, and according to their operating mode. See section 4."
+  }, {
+    "@language" : "en",
+    "@value" : "The current flow through electrochemical cells may be zero or non-zero. An electrochemical cell with current flow can operate either as a galvanic cell or an electrolytic cell."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  }, {
+    "@id" : "http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Electrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_14377ecb_5ead_431e_831e_159d622bd0ea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_a8bfac4f_3f30_4e6d_8d8e_34b1eeecb614"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RectangularElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_15325775_6d4c_4192_82f1_e4feca9de426",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_a2a68924_b759_4ba4_a25d_126021569fb9"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "IonExchangeMembrane"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_1a2eb6db_c927_4039_aea0_8dfab060fd27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Mudrib"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_1aec4cc0_82d5_4042_a657_ed7fe291c3d8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_4a5660bd_1c1a_40e5_8a41_463c720d3903"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Container"
+  }, {
+    "@language" : "en",
+    "@value" : "Housing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Case"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_1e33e37e_d7c9_4701_ba6d_a09456a13aaf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_4a5660bd_1c1a_40e5_8a41_463c720d3903"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CellLid"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_212af058_3bbb_419f_a9c6_90ba9ebb3706",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrodeCurrentCollector"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CurrentCollector"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_328c6e36_3706_4d92_abae_432fa3adb2a0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a cell baffle has a second function in protecting the plate pack from damage by objects inserted through the filling hole"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CellBaffle"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Membranes and diaphragms are special forms of electrochemical separators."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrochemicalSeparator"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Separator"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_35c650ab_3b23_4938_b312_1b0dede2e6d5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "electrode of an electrochemical cell through which net electric current flows and at which the predominating electrochemical reaction is a reduction"
+  }, {
+    "@language" : "en",
+    "@value" : "the cathode is the positive electrode during discharge and the negative electrode during charge"
+  }, {
+    "@language" : "en",
+    "@value" : "the concepts of “anode” and “cathode” are related only to the direction of electron flow, not to the polarity of the electrodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Cathode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_3663991d-9319-4f7a-922b-f0e428b58801",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PorousElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_38755e67_9d3b_4a82_bd8d_ef40a70379c1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "usually used in a flow cell system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9b6853e7_3412_463d_b5a9_82c14acebf7d"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AnolyteTank"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_3979cd56_6256_414d_966c_7f723bf71e37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_eacb141f_6ab4_491f_8603_a3e025cefc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ButtonCase"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoinCase"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_3f70e5c5_67f0_483e_998b_b83b7739c4bc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Terminal"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_43cd6e14_dd43_41b5_b5b4_344d53841603",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_1aec4cc0_82d5_4042_a657_ed7fe291c3d8"
+  }, {
+    "@id" : "http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrismaticCase"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_4977521c_0438_4659_bc81_1c77fae836bb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ThionylChlorideElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_49909cd1_44f4_41b4_877a_82a52845a5cb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Spacer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_4a5660bd_1c1a_40e5_8a41_463c720d3903",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CellCan"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_5186239a_2af7_4dbf_92ca_22e8e583c528",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BlendedActiveElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_522f0c0b_cf33_4328_af71_12e38dae6798",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_3f70e5c5_67f0_483e_998b_b83b7739c4bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PositiveTerminal"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_58413d4e_2885_459e_ac06_8d45e661cf91",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PorousSeparator"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_5adb91e0_ffe1_41f3_b779_c6966f65fb0e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "the term metal is meant to loosely cover alkali metals, alkaline earth metals, transition metals, post-transition metals, and metalloids"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MetalElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_5c0fdc09_166e_40a6_ad74_be66f0db51bc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CarbonMonofluorideElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_60bc27f0_8290_4113_8c3b_011433a733c7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "TerminalCover"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TerminalProtector"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_6235cc7c_2eee_432a_93af_47d7e05db007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HardCarbonElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_637c576e_a50e_47ae_8c74_2024ce4c6d0f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A typical construction is a tube of an inert material (e.g. agar agar) filled with a solution containing an electrolyte with approximately equal ion mobilities of the cation and the anion (e.g., KNO3, KCl), with the ends of the tube immersed in the electrolyte solution of the half cells."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SaltBridge"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_6385e07f_f40d_46b2_b998_c439950d75cb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_872b11e1_8bb3_4a2a_af90_bbaa0055d01e"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WaveSpring"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_68eb5e35_5bd8_47b1_9b7f_f67224fa291e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrodeBinder"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Binder"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_74459386_875c_4303_b774_60125b599d06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_1aec4cc0_82d5_4042_a657_ed7fe291c3d8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PouchCase"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_757eae08_4d43_42d4_8b4e_8a0bfd2f9a1c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "IntercalationElectrode"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "InsertionElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_76df6e7b_fc3b_4a1f_98b1_0ca9c0539e4c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OutputCable"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_81833d8a_b03d_4250_be84_6385415beb01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  }, {
+    "@id" : "http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ActiveMaterialMix"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectronicallyConductiveElectrodeAdditive"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ConductiveAdditive"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_871bc4a4_2d17_4b88_9b0f_7ab85f14afea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An auxiliary electrode is used in any three-electrode cell, together with a working electrode and reference electrode."
+  }, {
+    "@language" : "en",
+    "@value" : "An auxiliary electrode must not add an excessive potential burden to the cell. It is chosen for the efficiency of the electrochemical reaction and usually has a greater surface area than the working electrode."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  }, {
+    "@id" : "http://w3id.org/POLIS/BA/DryCoatedElectrode"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_fb988878_ee54_4350_9ee9_228c00c3ad35"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "AuxiliaryElectrode"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CounterElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_872b11e1_8bb3_4a2a_af90_bbaa0055d01e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Spring"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_88d2d4bc_4244_4419_a260_ad099a62d580",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SulfurElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_92147e31_d015_4889_a092_04fbab033f15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Plate"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_98d5101e_cd11_4a0d_b856_6fcd8aad132e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_872b11e1_8bb3_4a2a_af90_bbaa0055d01e"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BellevilleWasher"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "the opposite of an inert electrode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_a0a619d7_da95_41f0_8bc3_9c19d636d543"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "NonInertElectrode"
+  }, {
+    "@value" : "ReactiveElectrode"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ActiveElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_9b6853e7_3412_463d_b5a9_82c14acebf7d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "usually used in a flow cell system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CatholyteTank"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_9f466223_e20a_474d_ac4d_6d4b6131c275",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "this is a desirable characteristic for a reference electrode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NonPolarizableElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_a0a619d7_da95_41f0_8bc3_9c19d636d543",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Noble metals, mercury, and carbon are typically used as (nearly) inert electrodes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "InertElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_a0fcb105_587f_45d8_a89a_46dc8f745069",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a jacket may be made of metal (insulated from the cell terminals), plastic, paper or other suitable material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Jacket"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_a2f4dca3_829f_412b_9025_bd7581aad82a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a valve has a characteristic venting or opening and closing pressure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Valve"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_a8bfac4f_3f30_4e6d_8d8e_34b1eeecb614",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RoundElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_ae56cce3_7a7c_4e53_bb58_31e0d642d47e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "this flame front may originate from a spark or an external naked flame igniting combustible electrolysis gas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FlameArrestorVent"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_aff732a9_238a_4734_977c_b2ba202af126",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "by convention, a reduction reaction occurs during discharge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "PositivePlate"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PositiveElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_b1cf9fee_2164_4f95_8204_90f717373a8a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_eacb141f_6ab4_491f_8603_a3e025cefc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CylindricalCase"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_b2d11f0d_c1b0_4476_8d17_03b73d31e01f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_a2a68924_b759_4ba4_a25d_126021569fb9"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AsymmetricMembrane"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "a constituent is essential to the functioning of the system and cannot be replaced by a comparable thing without altering the behaviour of the system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrochemicalConstituent"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "at an anode, electrons are produced in a galvanic cell or extracted in an electrolytic cell"
+  }, {
+    "@language" : "en",
+    "@value" : "electrode of an electrochemical cell through which net electric current flows and at which the predominating electrochemical reaction is an oxidation"
+  }, {
+    "@language" : "en",
+    "@value" : "the anode is the negative electrode during discharge and the positive electrode during charge"
+  }, {
+    "@language" : "en",
+    "@value" : "the concepts of “anode” and “cathode” are related only to the direction of electron flow, not to the polarity of the electrodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Anode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_b851c7e9_60bf_4d3d_abe1_8d08d3d85124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_3f70e5c5_67f0_483e_998b_b83b7739c4bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NegativeTerminal"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_bbc77932_643b_4603_a4e8_970ef06a76ad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "EdgeInsulator"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_c2024587_3237_474e_8df9_91d10db2df47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PolarizableElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_c831d963_629a_41ab_850f_97fb6841b739",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "GraphiteElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_c94c041b_8ea6_43e7_85cc_d2bce7785b4c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "by convention, an oxidation reaction occurs during discharge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "NegativePlate"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NegativeElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_cc1f854a_ba6c_436e_bd18_c8b9159bbf52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "VentCap"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_d1042a12_e4be_4992_86cb_59420ef4e05c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ChargeCarrier"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_d11b0e66_c35b_4da7_80a1_037ce89b77fb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_58413d4e_2885_459e_ac06_8d45e661cf91"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "FibreglassSeparator"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "GlassFibreSeparator"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_d2726dd5_69f0_4cb1_bd3c_4c48813e57e7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "IronDisulfideElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_d8a78cd2_8107_46dd_a198_0b64676efc00",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Connector"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_e4b6cb36_4dac_49e3_871d_40bcfca943a5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MetalOxideElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_e94f6d42_35e4_4f9f_bb74_5e0628bbd454",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_43cd6e14_dd43_41b5_b5b4_344d53841603"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MonoblocContainer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_eacb141f_6ab4_491f_8603_a3e025cefc82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_1aec4cc0_82d5_4042_a657_ed7fe291c3d8"
+  }, {
+    "@id" : "http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "RoundCase"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_f1c7eacb_9f21_4100_925c_3974f266e06f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_b2d11f0d_c1b0_4476_8d17_03b73d31e01f"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BilayerMembrane"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_f330680b_347e_45b3_9113_5ce09d18d60b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PressureReliefVent"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_f6fcd255_248d_4603_b128_04dab960a676",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "If processes of interest occur both at the anode and the cathode of a cell (as in differential amperometry or controlled-current potentiometric titration with two indicator electrodes), the cell should be said to comprise two indicator or working electrodes."
+  }, {
+    "@language" : "en",
+    "@value" : "This term is typically used in potentiometry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "IndicatorElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/electrochemistry#electrochemistry_fb988878_ee54_4350_9ee9_228c00c3ad35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "If processes of interest occur both at the anode and the cathode of a cell (as in differential amperometry or controlled-current potentiometric titration with two indicator electrodes), the cell should be said to comprise two indicator or working electrodes."
+  }, {
+    "@language" : "en",
+    "@value" : "Te potential of a working electrode is controlled with respect to the reference electrode."
+  }, {
+    "@language" : "en",
+    "@value" : "This term is typically used in voltammetry, polarography, amperometry, and coulometry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WorkingElectrode"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.\nISO 80000-1"
+  }, {
+    "@language" : "en",
+    "@value" : "Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.\n\nSystems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions."
+  }, {
+    "@language" : "en",
+    "@value" : "Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind. \n\nFor example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind. \n\nHowever, in some cases special measurement unit names are restricted to be used with quantities of specific kind only. \n\nFor example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides. \n\nAs another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m)."
+  }, {
+    "@language" : "en",
+    "@value" : "— quantities of the same kind have the same quantity dimension,\n— quantities of different quantity dimensions are always of different kinds, and\n— quantities having the same quantity dimension are not necessarily of the same kind.\nISO 80000-1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PhysicalQuantity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Symbolic"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Variable"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Whole"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "From Old French \"deviser\", meaning: arrange, plan, contrive.\n\nLiterally \"dispose in portions,\" from Vulgar Latin \"divisare\", frequentative of Latin dividere, meaning \"to divide\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Device"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Numerical"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A mathematical object in this branch is not representing a concept but an actual graphical object built using mathematcal symbols arranged in some way, according to math conventions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Mathematical"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The 'Engineered' branch represents real world objects that show some level of complexity/heterogeneity in their composition, and are made for a specific use."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Engineered"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_a2a68924_b759_4ba4_a25d_126021569fb9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Membrane"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_ae15fb4f_8e4d_41de_a0f9_3997f89ba6a2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Constant"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Constituent"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A 'variable' whose value is assumed to be known independently from the equation, but whose value is not explicitated in the equation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Parameter"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Language"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A material that is synthesized within a manufacturing process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "EngineeredMaterial"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Component"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/references",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/MUSICODE/Onto4OLAE/DeviceParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Device parameters can vary depending on the type of electronic device but may include parameters such as electrical Parameters, thermal Parameters, optical parameters, mechanical Parameters, and etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The parameters of an electronic device determine how the device behaves, performs, and operates."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DeviceParameter"
+  } ]
+}, {
+  "@id" : "http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Equipment used to produce organic electrical devices on a large scale is referred to as a fabrication device. The manufacturing of a variety of components, including organic thin-film transistors (OTFTs), organic photovoltaics (OPVs), organic light-emitting diodes (OLEDs), and other organic-based electronic devices, often uses these devices."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FabricationDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/MUSICODE/Onto4OLAE/ProcessParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ProcessParameter"
+  } ]
+}, {
+  "@id" : "http://w3id.org/MUSICODE/Onto4OLAE/characterizationDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The equipment or instrument used to characterize and measure the electrical, optical, and structural properties of organic electronic devices."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterizationDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "OntoCA: An Ontology in POLIS for modeling the cell assembly process in batteries. The Onto4Polis-CS ontology has been developed to model the cell assembly processes (coin, pouch, etc.,) in the domain of electrochemical batteries.\nThe OntoCA was constructed following a seven-step procedure in web ontology language (OWL) and an open-source ontology editor called protégé.\n\nThe cell assembly process is divided into three main stages:\n1) Slurry Preparation\n2) Electrode Coating, and\n3) Cell Assembly\n\nThe included concepts (classes) and their hierarchy, relationships, and axioms in the ontology were finalized with the assistance of domain experts. Some concepts were borrowed from other ontologies as needed. Utilizing the Linked Data concept, the developed ontology's concepts are interlinked with other structured data (ontologies) on the web via unique identifiers, resulting in enhanced semantic capability, e.g., EMMO ontology, BattINFO, and PROV-O are some examples of interlinked ontologies.\n\nFor more details, please visit https://kit-mms.github.io/OntoCA.github.io/"
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Britta Nestler (https://scholar.google.de/citations?user=4UUOSj4AAAAJ&hl=de), Karlsruher Institut für Technologie (KIT) (https://ror.org/04t3en479)"
+  }, {
+    "@value" : "Michael Selzer (https://orcid.org/0000-0002-9756-646X), Karlsruher Institut für Technologie (KIT) (https://ror.org/04t3en479)"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "22-04-2024"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Hafiz Noman (https://orcid.org/0009-0001-6710-6681), Karlsruher Institut für Technologie (KIT) (https://ror.org/04t3en479)"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@value" : "POLIS (https://www.postlithiumstorage.org)"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "OntoCA: An ontology for the cell assembly process in electrochemical battery domain"
+  } ],
+  "http://w3id.org/POLIS/BA/citation" : [ {
+    "@language" : "en",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "POLIS Workgroup X.4 (2024); OntoCA: An ontology for the cell assembly process in electrochemical battery domain"
+  } ],
+  "http://w3id.org/POLIS/BA/status" : [ {
+    "@value" : "Active"
+  } ],
+  "http://w3id.org/POLIS/BA/title" : [ {
+    "@value" : "Onto4POLIS-CA:An Ontology in POLIS for modeling the cell assembly process in batteries."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OntoCA"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "v 1.0.0"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/#Interlayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/#Separator"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "An interlayer is a cell component that is sandwiched somewhere between the cathode and the anode"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Interlayer"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/#Internal_Structure/Physical_Components",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "InternalStructure"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/#Separator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/#Internal_Structure/Physical_Components"
+  }, {
+    "@id" : "_:genid56"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A physical barrier that keeps the anode and cathode apart, preventing a short circuit."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Separator"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Anode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/WorkingElectrode"
+  }, {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "The electrode where oxidation (loss of electrons) occurs during discharge."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Anode"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/BMS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/MonitoringAndControlSystem"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CellVoltageMonitoringSystem"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "The overall system that manages and protects the battery, including functions like cell balancing, temperature control, and state-of-charge estimation."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "BatteryManagementsystem"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/BatteryCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrochemicalDevice"
+  }, {
+    "@id" : "http://w3id.org/POLIS/BA/Output"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "We should call it cell assembly so to say"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "BatteryCell"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Calendring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/PostCoatingOperation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Calendring"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Cathode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/WorkingElectrode"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "The material in the anode and cathode that undergoes the electrochemical reactions."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Cathode"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/CellAssembly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrochemicalCellManufacturing"
+  }, {
+    "@id" : "_:genid19"
+  }, {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid21"
+  }, {
+    "@id" : "_:genid22"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CellAssembly"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/CellVoltageMonitoringSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/MonitoringAndControlSystem"
+  }, {
+    "@id" : "_:genid23"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "Electronics for monitoring the voltage of individual cells for balancing and safety."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "CellVoltageMonitoringSystem"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/CoatedElectrode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Output"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "The outcome of the electrode coating process."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "CoatedElectrode"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/CoatingDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoatingDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/CoinCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/BatteryCell"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoinCell"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/CoinCellAssembly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CellAssembly"
+  }, {
+    "@id" : "_:genid24"
+  }, {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid26"
+  }, {
+    "@id" : "_:genid27"
+  }, {
+    "@id" : "_:genid28"
+  }, {
+    "@id" : "_:genid29"
+  }, {
+    "@id" : "_:genid30"
+  }, {
+    "@id" : "_:genid31"
+  }, {
+    "@id" : "_:genid32"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoinCellAssembly"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ConductiveSalt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Electrolyte"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A salt dissolved in the electrolyte that facilitates the movement of ions."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "ConductiveSalt"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Container",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ExternalStructure"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/VentilationChannel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "The outer housing that protects the internal components."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Case/Container"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/CounterElectrode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Electrode"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Cutting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrodeShaping"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrodeCutting"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/DieCuttingMachine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ShapingDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/DoctorBlade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoatingDevice"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DoctorBlade"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/DryCoatedElectrode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoatedElectrode"
+  }, {
+    "@id" : "_:genid33"
+  }, {
+    "@id" : "_:genid34"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DryCoatedElectrode"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/DryingDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DryingDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrochemicalCellManufacturing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/battery#battery_7c072505_7ea6_4bfd_8403_7133b3a4b806"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "ElectrochemicalCellManufacturing"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrochemicalDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "ElectrochemicalDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Electrode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Electrode"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrodeCaating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrochemicalCellManufacturing"
+  }, {
+    "@id" : "_:genid35"
+  }, {
+    "@id" : "_:genid36"
+  }, {
+    "@id" : "_:genid37"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "An electrode coating is a thin layer of slurry applied to the surface of a current collector as part of a cell or battery assembly."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrodeCaating"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrodePunching",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrodeShaping"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrodePunching"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrodeShaping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrochemicalCellManufacturing"
+  }, {
+    "@id" : "_:genid38"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "During the shaping process the electrode material is shaped into the desired dimensions and form required for assembly into a battery cell.\n\nTo achieve the desired shape, it typically involves techniques such as calendaring, extrusion, cutting, or punching."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrodeShaping"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrodeSlurry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The outcome of the Electrode Slurry prepration Process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Output"
+  }, {
+    "@id" : "_:genid39"
+  }, {
+    "@id" : "_:genid40"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrodeSlurry"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrodeSlurryPrepration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrochemicalCellManufacturing"
+  }, {
+    "@id" : "_:genid41"
+  }, {
+    "@id" : "_:genid42"
+  }, {
+    "@id" : "_:genid43"
+  }, {
+    "@id" : "_:genid44"
+  }, {
+    "@id" : "_:genid45"
+  }, {
+    "@id" : "_:genid46"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "The process of electrode slurry formation involves the preparation of a mixture or slurry containing active materials, conductive additives, binders, and a liquid medium."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrodeSlurryPrepration"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrodeSlurryPreprationDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice"
+  }, {
+    "@id" : "_:genid47"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "The slurry prepration device is typically designed for preparing the essential component of an electrode, i.e., slurry, which is a mixture of active material, conductive additives, and binder in a suitable solvent."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrodeSlurryPreprationDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Electrolyte",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid48"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A substance that allows ions to move between the anode and cathode."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Electrolyte"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrolyteAdditives",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Electrolyte"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "Various chemicals added to the electrolyte to enhance performance and safety."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "ElectrolyteAdditives"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ElectrolyteSolvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Electrolyte"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "ElectrolyteSolvent"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ExternalStructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "ExternalStructure"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/FullCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoinCell"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FullCell"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/HalfCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoinCell"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HalfCell"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/InsulationRing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "InsulationRing"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/MonitoringAndControlSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "MonitoringAndControlSystem"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Output",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Oven",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/DryingDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/PostCoatingOperation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ElectrochemicalCellManufacturing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PostCoatingOperation"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/PouchCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/BatteryCell"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PouchCell"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/PouchCellAssembly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CellAssembly"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PouchCellAssembly"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/PunchPress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ShapingDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ReferenceElectrode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Electrode"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/SafetyFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "SafetyFeature"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ShapingDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/SwagelokCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/BatteryCell"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SwagelokCell"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/SwagelokCellAssembly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CellAssembly"
+  }, {
+    "@id" : "_:genid49"
+  }, {
+    "@id" : "_:genid50"
+  }, {
+    "@id" : "_:genid51"
+  }, {
+    "@id" : "_:genid52"
+  }, {
+    "@id" : "_:genid53"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SwagelokCellAssembly"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/ThermalManagementSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/SafetyFeature"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/Vent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "Components or features designed to manage and control the temperature of the battery."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "ThermalManagementSystem"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/Vent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/SafetyFeature"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A safety feature to release gas in case of overpressure."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Vent"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/VentilationChannel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/ExternalStructure"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "Channels designed to allow the release of heat or gas."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "VentilationChannel"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/WetCoatedElectrode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoatedElectrode"
+  }, {
+    "@id" : "_:genid54"
+  }, {
+    "@id" : "_:genid55"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WetCoatedElectrode"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/WorkingElectrode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/DryCoatedElectrode"
+  }, {
+    "@id" : "http://w3id.org/POLIS/BA/Electrode"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WorkingElectrode"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/citation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/coatedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "coatedWith"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "contains"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasActiveMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasActiveMaterial"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasAuxiliaryDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasAuxiliaryDevice"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasBinder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasBinder"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasComponent"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasConductiveAdditive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasConductiveAdditive"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasCurrentCollector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasCurrentCollector"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasOutput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasOutput"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasParameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasParameter"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasParticipant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasParticipant"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasSafetyFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSafetyFeature"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/hasSolvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "hasSolvent"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/include",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "include"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/isAppliedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "isAppliedBy"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/isAppliedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "isAppliedOn"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/isComponentOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "isComponentOf"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/isConnectedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "isConnectedTo"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/isDriedthrough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "isDriedthrough"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/isManagedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "isManagedBy"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/isShapedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "isShapedBy"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/monitors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "monitor"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/performedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "performedOn"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/symmetricCell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/POLIS/BA/CoinCell"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "symmetricCell"
+  } ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/POLIS/BA/undergo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "undergo"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_127594de_4802_4ad6_b09d_d05b340394dd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "IntangibleProduct"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Service"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_135ab8ea_e028_439e_be64_3e0f9734ea2b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "NonIntentionalProcess"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NaturalProcess"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_1c16bb7f_5400_4498_8ef2_54392908da4e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HybridMatter"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_1f19b65b_35bf_4662_a318_7f1c147cb3b6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompositeBoson"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Behaviour"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.\n\nNote that the name of a compound may refer to the respective molecular entity or to the chemical species,"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://goldbook.iupac.org/terms/view/M03986"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ChemicalEntity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MolecularEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Experiment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_29108c7c_9087_4992_ab1c_02561665df21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompositeFermion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Conversion of materials and assembly of components for the manufacture of products"
+  }, {
+    "@value" : "Technology is the application of knowledge for achieving practical goals in a reproducible way."
+  }, {
+    "@value" : "Technology refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes."
+  }, {
+    "@value" : "application of scientific knowledge, tools, techniques, crafts or systems in order to solve a problem or to achieve an objective which can result in a product or process"
+  }, {
+    "@value" : "application of scientific knowledge, tools, techniques, crafts, systems or methods of organization in order to solve a problem or achieve an objective"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ProductionEngineeringProcess"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TechnologyProcess"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "While every 'process' in the EMMO involves physical objects, this class is devoted to represent real world objects that express a phenomenon relevant for the ontologist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PhysicalPhenomenon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid62"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ParticulateMatter"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_b56c3aa6_28e5_4f9b_a4a5_93d8c68e1570"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3"
+    } ]
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PhysicalObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Material"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_4299e344_a321_4ef2_a744_bacfcce80afc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Job"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Task"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "PureSubstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "ElementalSubstance"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Following the common definition of process, the reader may think that every whole should be a process, since every 4D object always has a time dimension. However, in the EMMO we restrict the meaning of the word process to items whose evolution in time have a particular meaning for the ontologist (i.e. every 4D object unfolds in time, but not every 4D time unfolding may be of interest for the ontologist and categorized as a process).\n\nFor this reason, the definition of every specific process subclass requires the introduction of a primitive concept."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Occurrent"
+  }, {
+    "@language" : "en",
+    "@value" : "Perdurant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Process"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Work"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Elaboration"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A chemical entity comprises the two different ways to represents matter: as single recognizable particle entity (molecular entity) and as a composition of particle entities (substance).\n\nThis distinction is not well assessed in actual chemical nomenclature, in which an element name refers to both the pure elemental substance or the atom.\n\nIn the EMMO we force the adoption of a more strict categorization based on mereotopology.\n\nThe class Material hosts the subclasses for which a substance can be identified without necessarily considering its nature of molecule/atom or substance (e.g. hydrocarbon is the class of both hydrocarbon molecules or gases)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea"
+    } ]
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ChemicalEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_49267eba_5548_4163_8f36_518d65b583f9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Perspective"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SubProcess"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "InorganicCompound"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompositePhysicalObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_592b1d98_4736_4cac_9b62_849b8dbe11c7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ProcessEngineeringProcess"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/emmo#EMMO_1c16bb7f_5400_4498_8ef2_54392908da4e"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_f13672a3_59cc_40ed_8def_65009a8f74e6"
+    } ]
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PhysicalSubstance"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Workflow"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_660a4964_0333_4663_bc66_e93ef59b0679",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MesoscopicSubstance"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_6c739b1a_a774_4416_bb31_1961486fa9ed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Theorization"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Theorisation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_f13672a3_59cc_40ed_8def_65009a8f74e6"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OrdinaryMatter"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_704630b8_fee3_49b9_baca_40e2dd276370",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "OrganicCompound"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ContinuumManufacturing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MaterialsProcessing"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_7b42954f_0b91_4b3a_a65e_2470202cf548",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Hadron"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ContinuumSubstance"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/emmo#EMMO_1f19b65b_35bf_4662_a318_7f1c147cb3b6"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_29108c7c_9087_4992_ab1c_02561665df21"
+    } ]
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompositePhysicalParticle"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "DIN 8580:2020"
+  }, {
+    "@language" : "en",
+    "@value" : "ISO 15531-1:2004\nmanufacturing: function or act of converting or transforming material from raw material or semi-finished state to a state of further completion"
+  }, {
+    "@language" : "en",
+    "@value" : "ISO 18435-1:2009\nmanufacturing process: set of processes in manufacturing involving a flow and/or transformation of material, information, energy, control, or any other element in a manufacturing area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ManufacturingProcess"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Stage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_b56c3aa6_28e5_4f9b_a4a5_93d8c68e1570",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "PhysicalInteractingConvex"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Project"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/emmo#EMMO_660a4964_0333_4663_bc66_e93ef59b0679"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2"
+    } ]
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Substance"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_be0a7278_b4e6_4bca_88ba_de3f67a478e2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_1c16bb7f_5400_4498_8ef2_54392908da4e"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_1f19b65b_35bf_4662_a318_7f1c147cb3b6"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_7b42954f_0b91_4b3a_a65e_2470202cf548"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Meson"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A substance is always composed of more than one molecular entity. It lays in the continuum or mesoscopic domain."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ChemicalSubstance"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The interest is on the 4D object as it extends in time (process) or as it persists in time (object):\n- object (focus on spatial configuration)\n- process (focus on temporal evolution)\n\nThe concepts of endurant and perdurant implicitly rely on the concept of instantaneous 3D snapshot of the world object, that in the EMMO is not allowed since everything extends in 4D and there are no abstract objects. Moreover, time is a measured property in the EMMO and not an objective characteristic of an object, and cannot be used as temporal index to identify endurant position in time. \n\nFor this reason an individual in the EMMO can always be classified both endurant and perdurant, due to its nature of 4D entity (e.g. an individual may belong both to the class of runners and the class of running process), and the distinction is purely semantic.  In fact, the object/process distinction is simply a matter of convenience in a 4D approach since a temporal extension is always the case, and stationarity depends upon observer time scale. For this reason, the same individual (4D object) may play the role of a process or of an object class depending on the object to which it relates.\n\nNevertheless, it is useful to introduce categorizations that characterize persistency through continuant and occurrent concepts, even if not ontologically but only cognitively defined. This is also due to the fact that our language distinguish between nouns and verbs to address things, forcing the separation between things that happens and things that persist.\n\nThis perspective provides classes conceptually similar to the concepts of endurant and perdurant (a.k.a. continuant and occurrent). We claim that this distinction is motivated by our cognitive bias, and we do not commit to the fact that both these kinds of entity “do really exist”. For this reason, a whole instance can be both process and object, according to different cognitive approaches (see Wonderweb D17).\n\nThe distinction between endurant and perdurant as usually introduced in literature (see BFO SPAN/SNAP approach) is then no more ontological, but can still be expressed through the introduction of ad hoc primitive definitions that follow the interpreter endurantist or perdurantist attitude."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_49267eba_5548_4163_8f36_518d65b583f9"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Persistence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/emmo#EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32"
+    }, {
+      "@id" : "https://w3id.org/emmo#EMMO_704630b8_fee3_49b9_baca_40e2dd276370"
+    } ]
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ChemicalCompound"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_f13672a3_59cc_40ed_8def_65009a8f74e6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AntiMatter"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_f68858dd_64f4_4877_b7fb_70d04fbe5bab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ConstitutiveProcess"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_f835f4d4_c665_403d_ab25_dca5cc74be52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"
+  }, {
+    "@id" : "https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Nucleus"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo#EMMO_fdae3f5a_8f8c_4875_a784_5beda43d3009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_b56c3aa6_28e5_4f9b_a4a5_93d8c68e1570"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PhysicalyUnbonded"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/battery#battery_7c072505_7ea6_4bfd_8403_7133b3a4b806",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "IntentionalBatteryProcess"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/battery#battery_f768ea27_09ba_4875_a5cc_2c644b0753a3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BatteryPhenomenon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chameo#CharacterisationExperiment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationExperiment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationExperiment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chameo#CharacterisationProcedure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationProcedure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CharacterisationProcedure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chameo#ProbeSampleInteraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ProbeSampleInteraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ProbeSampleInteraction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chameo#Signal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Solvent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_29fd347b_6a15_4c98_a982_84cf555b0b86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WeakAcid"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_371fbcaa_d782_4f4c_86e3_58e1a58d3bea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_a9218f8f_2e80_497e_b968_b4947cf21802"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ZrO2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ZirconiumIVOxide"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_3899a9c9_9b34_443e_8ce6_0257589bb38a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Solute"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_7beec353_bad9_46fc_a035_a76b131fb32b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "AlkalineSubstance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Base"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_81b90332_8b8e_407b_a8fd_517306d56a59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SolventCompound"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_8e5448fc_1916_4afb_9fd9_2489797f6922",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_7beec353_bad9_46fc_a035_a76b131fb32b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WeakBaseCompound"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_a9218f8f_2e80_497e_b968_b4947cf21802",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ZirconiumOxideCompound"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_bed1a22c_8b61_467a_86a0_d24c7b910653",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_7beec353_bad9_46fc_a035_a76b131fb32b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StrongBaseCompound"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Acid"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_de038959_9251_48d1_a141_3684f14d957f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AmphotericCompound"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_edae7b22_461b_432b_b737_3c93feb69b0e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Salt"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_f5b930f9_2f95_4268_993c_ff6b57ae7691",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/chemicalsubstance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StrongAcid"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_0471ec77_91bc_4a78_be31_b6af613e5966",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Neutralization"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Neutralisation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_06d8e1ee_924a_4915_998d_33a69f41dadc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "the opposite of a charging process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrochemicalDischarging"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Discharge"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_19abaccd_43be_4048_965c_e4fb63c5951b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrochemicalPhenomenon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_25d01d13_3ca5_4619_98c1_8ebbd01ad794",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ContinuousServiceTest"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_46957d35_0f8b_4d92_acb3_aded6ce774a1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "VoltageControlledProcess"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_5548f188_df00_4c05_ae98_7846e92efe36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CurrentControlledProcess"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_83d2c2d4_ffa9_42f4_9264_a0c59c657607",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "CellReversal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PolarityReversal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_8a1c9a7b_978c_4421_a9c1_d0b07b42aab9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ChemicalReaction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_a9873d3d_945b_40ba_b9cd_8dfb64cec88f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrochemicalCharging"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Charge"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_c91164b8_5e56_4c94_bad1_d7ada576b0e7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StorageTest"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_c936bfbe_7a0c_4185_a317_db1ce2c3c38c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CathodicProtection"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_d3e2d213_d078_4b9a_8beb_62f063e57d69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "in a secondary battery these operations may consist of a sequence of a discharge followed by a charge or a charge followed by a discharge under specified conditions"
+  }, {
+    "@language" : "en",
+    "@value" : "this sequence may include rest periods"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "ChargeCycle"
+  }, {
+    "@language" : "en",
+    "@value" : "ElectrochemicalCycling"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Cycling"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f0c24970_4c14_4207_bd78_5f2181a67085",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Electrodeposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElectrochemicalMethod"
+  } ]
+} ]
