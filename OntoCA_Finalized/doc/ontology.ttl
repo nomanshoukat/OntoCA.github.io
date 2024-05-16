@@ -1,0 +1,2129 @@
+@prefix : <http://w3id.org/POLIS/BA/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://w3id.org/POLIS/BA/> .
+
+<http://w3id.org/POLIS/BA/> rdf:type owl:Ontology ;
+                             <http://purl.org/dc/elements/1.1/description> """OntoCA: An Ontology in POLIS for modeling the cell assembly process in batteries. The Onto4Polis-CS ontology has been developed to model the cell assembly processes (coin, pouch, etc.,) in the domain of electrochemical batteries.
+The OntoCA was constructed following a seven-step procedure in web ontology language (OWL) and an open-source ontology editor called protégé.
+
+The cell assembly process is divided into three main stages:
+1) Slurry Preparation
+2) Electrode Coating, and
+3) Cell Assembly
+
+The included concepts (classes) and their hierarchy, relationships, and axioms in the ontology were finalized with the assistance of domain experts. Some concepts were borrowed from other ontologies as needed. Utilizing the Linked Data concept, the developed ontology's concepts are interlinked with other structured data (ontologies) on the web via unique identifiers, resulting in enhanced semantic capability, e.g., EMMO ontology, BattINFO, and PROV-O are some examples of interlinked ontologies.
+
+For more details, please visit https://kit-mms.github.io/OntoCA.github.io/"""@en ;
+                             <http://purl.org/dc/terms/contributor> "Britta Nestler (https://scholar.google.de/citations?user=4UUOSj4AAAAJ&hl=de), Karlsruher Institut für Technologie (KIT) (https://ror.org/04t3en479)" ,
+                                                                    "Michael Selzer (https://orcid.org/0000-0002-9756-646X), Karlsruher Institut für Technologie (KIT) (https://ror.org/04t3en479)" ;
+                             <http://purl.org/dc/terms/created> "22-04-2024" ;
+                             <http://purl.org/dc/terms/creator> "Hafiz Noman (https://orcid.org/0009-0001-6710-6681), Karlsruher Institut für Technologie (KIT) (https://ror.org/04t3en479)" ;
+                             <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                             <http://purl.org/dc/terms/publisher> "POLIS (https://www.postlithiumstorage.org)" ;
+                             <http://purl.org/dc/terms/title> "OntoCA: An ontology for the cell assembly process in electrochemical battery domain"@en ;
+                             :citation ""@en ,
+                                       "POLIS Workgroup X.4 (2024); OntoCA: An ontology for the cell assembly process in electrochemical battery domain"@en ;
+                             :status "Active" ;
+                             :title "Onto4POLIS-CA:An Ontology in POLIS for modeling the cell assembly process in batteries." ;
+                             rdfs:label "OntoCA" ;
+                             owl:versionInfo "v 1.0.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/references
+<http://purl.org/dc/terms/references> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/POLIS/BA/citation
+:citation rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/POLIS/BA/status
+:status rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/POLIS/BA/title
+:title rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://w3id.org/POLIS/BA/coatedWith
+:coatedWith rdf:type owl:ObjectProperty ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "coatedWith"@en .
+
+
+###  http://w3id.org/POLIS/BA/contains
+:contains rdf:type owl:ObjectProperty ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "contains"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasActiveMaterial
+:hasActiveMaterial rdf:type owl:ObjectProperty ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "hasActiveMaterial"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasAuxiliaryDevice
+:hasAuxiliaryDevice rdf:type owl:ObjectProperty ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "hasAuxiliaryDevice"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasBinder
+:hasBinder rdf:type owl:ObjectProperty ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "hasBinder"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasComponent
+:hasComponent rdf:type owl:ObjectProperty ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "hasComponent"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasConductiveAdditive
+:hasConductiveAdditive rdf:type owl:ObjectProperty ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "hasConductiveAdditive"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasCurrentCollector
+:hasCurrentCollector rdf:type owl:ObjectProperty ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "hasCurrentCollector"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasOutput
+:hasOutput rdf:type owl:ObjectProperty ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "hasOutput"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasParameter
+:hasParameter rdf:type owl:ObjectProperty ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "hasParameter"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasParticipant
+:hasParticipant rdf:type owl:ObjectProperty ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "hasParticipant"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasSafetyFeature
+:hasSafetyFeature rdf:type owl:ObjectProperty ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "hasSafetyFeature"@en .
+
+
+###  http://w3id.org/POLIS/BA/hasSolvent
+:hasSolvent rdf:type owl:ObjectProperty ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "hasSolvent"@en .
+
+
+###  http://w3id.org/POLIS/BA/include
+:include rdf:type owl:ObjectProperty ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "include"@en .
+
+
+###  http://w3id.org/POLIS/BA/isAppliedBy
+:isAppliedBy rdf:type owl:ObjectProperty ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "isAppliedBy"@en .
+
+
+###  http://w3id.org/POLIS/BA/isAppliedOn
+:isAppliedOn rdf:type owl:ObjectProperty ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "isAppliedOn"@en .
+
+
+###  http://w3id.org/POLIS/BA/isComponentOf
+:isComponentOf rdf:type owl:ObjectProperty ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "isComponentOf"@en .
+
+
+###  http://w3id.org/POLIS/BA/isConnectedTo
+:isConnectedTo rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "isConnectedTo"@en .
+
+
+###  http://w3id.org/POLIS/BA/isDriedthrough
+:isDriedthrough rdf:type owl:ObjectProperty ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "isDriedthrough"@en .
+
+
+###  http://w3id.org/POLIS/BA/isManagedBy
+:isManagedBy rdf:type owl:ObjectProperty ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "isManagedBy"@en .
+
+
+###  http://w3id.org/POLIS/BA/isShapedBy
+:isShapedBy rdf:type owl:ObjectProperty ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "isShapedBy"@en .
+
+
+###  http://w3id.org/POLIS/BA/monitors
+:monitors rdf:type owl:ObjectProperty ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "monitor"@en .
+
+
+###  http://w3id.org/POLIS/BA/performedOn
+:performedOn rdf:type owl:ObjectProperty ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "performedOn"@en .
+
+
+###  http://w3id.org/POLIS/BA/undergo
+:undergo rdf:type owl:ObjectProperty ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "undergo"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://emmo.info/battery#battery_4dfa5c98_e185_456b_9f06_89364ac637e5
+<http://emmo.info/battery#battery_4dfa5c98_e185_456b_9f06_89364ac637e5> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryBase"@en .
+
+
+###  http://emmo.info/battery#battery_5029a2e2_3f59_4f28_a6c4_bc6a28e75a66
+<http://emmo.info/battery#battery_5029a2e2_3f59_4f28_a6c4_bc6a28e75a66> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryCrate"@en .
+
+
+###  http://emmo.info/battery#battery_9acfeea6_ca7f_4b97_9844_c38edf6387ec
+<http://emmo.info/battery#battery_9acfeea6_ca7f_4b97_9844_c38edf6387ec> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://emmo.info/emmo#EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186> ;
+                                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryModule"@en .
+
+
+###  http://emmo.info/battery#battery_af472269_bff7_4aa1_95e9_15666a350fc4
+<http://emmo.info/battery#battery_af472269_bff7_4aa1_95e9_15666a350fc4> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryRack"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627
+<http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ,
+                                                                                                          <http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0> ;
+                                                                                          rdfs:comment "Alternative definition: Half-cell consisting of at least one electron conductor and at least one ionic conductor (electrolyte). - Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019)"@en ,
+                                                                                                       "Electron conductor in an electrochemical cell connected to the external circuit."@en ,
+                                                                                                       "In some electroanalytical techniques (conductometry and differential potentiometry), two indicator electrodes are used. For many analytical measurements in cells with current flow, a three-electrode cell is used."@en ,
+                                                                                                       "Many types of electrodes are used. These may be classified into groups according to their composition, form and size, and according to their operating mode. See section 4."@en ,
+                                                                                                       "The current flow through electrochemical cells may be zero or non-zero. An electrochemical cell with current flow can operate either as a galvanic cell or an electrolytic cell."@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Electrode"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "Electron conductor in an electrochemical cell connected to the external circuit."@en ;
+   <http://purl.org/dc/terms/source> "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+ ] .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_14377ecb_5ead_431e_831e_159d622bd0ea
+<http://emmo.info/electrochemistry#electrochemistry_14377ecb_5ead_431e_831e_159d622bd0ea> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          owl:disjointWith <http://emmo.info/electrochemistry#electrochemistry_a8bfac4f_3f30_4e6d_8d8e_34b1eeecb614> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "RectangularElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_15325775_6d4c_4192_82f1_e4feca9de426
+<http://emmo.info/electrochemistry#electrochemistry_15325775_6d4c_4192_82f1_e4feca9de426> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_a2a68924_b759_4ba4_a25d_126021569fb9> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "IonExchangeMembrane"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_1a2eb6db_c927_4039_aea0_8dfab060fd27
+<http://emmo.info/electrochemistry#electrochemistry_1a2eb6db_c927_4039_aea0_8dfab060fd27> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Mudrib"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_1aec4cc0_82d5_4042_a657_ed7fe291c3d8
+<http://emmo.info/electrochemistry#electrochemistry_1aec4cc0_82d5_4042_a657_ed7fe291c3d8> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          owl:disjointWith <http://emmo.info/electrochemistry#electrochemistry_4a5660bd_1c1a_40e5_8a41_463c720d3903> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "Container"@en ,
+                                                                                                                                         "Housing"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Case"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_1e33e37e_d7c9_4701_ba6d_a09456a13aaf
+<http://emmo.info/electrochemistry#electrochemistry_1e33e37e_d7c9_4701_ba6d_a09456a13aaf> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          owl:disjointWith <http://emmo.info/electrochemistry#electrochemistry_4a5660bd_1c1a_40e5_8a41_463c720d3903> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "CellLid"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_212af058_3bbb_419f_a9c6_90ba9ebb3706
+<http://emmo.info/electrochemistry#electrochemistry_212af058_3bbb_419f_a9c6_90ba9ebb3706> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "ElectrodeCurrentCollector"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "CurrentCollector"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_328c6e36_3706_4d92_abae_432fa3adb2a0
+<http://emmo.info/electrochemistry#electrochemistry_328c6e36_3706_4d92_abae_432fa3adb2a0> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          rdfs:comment "a cell baffle has a second function in protecting the plate pack from damage by objects inserted through the filling hole"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "CellBaffle"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_328c6e36_3706_4d92_abae_432fa3adb2a0> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "a cell baffle has a second function in protecting the plate pack from damage by objects inserted through the filling hole"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0
+<http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          rdfs:comment "Membranes and diaphragms are special forms of electrochemical separators."@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "ElectrochemicalSeparator"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Separator"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_35c650ab_3b23_4938_b312_1b0dede2e6d5
+<http://emmo.info/electrochemistry#electrochemistry_35c650ab_3b23_4938_b312_1b0dede2e6d5> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          owl:disjointWith <http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302> ;
+                                                                                          rdfs:comment "electrode of an electrochemical cell through which net electric current flows and at which the predominating electrochemical reaction is a reduction"@en ,
+                                                                                                       "the cathode is the positive electrode during discharge and the negative electrode during charge"@en ,
+                                                                                                       "the concepts of “anode” and “cathode” are related only to the direction of electron flow, not to the polarity of the electrodes"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Cathode"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_35c650ab_3b23_4938_b312_1b0dede2e6d5> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "electrode of an electrochemical cell through which net electric current flows and at which the predominating electrochemical reaction is a reduction"@en ;
+   <http://purl.org/dc/terms/source> "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_35c650ab_3b23_4938_b312_1b0dede2e6d5> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "the cathode is the positive electrode during discharge and the negative electrode during charge"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_35c650ab_3b23_4938_b312_1b0dede2e6d5> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "the concepts of “anode” and “cathode” are related only to the direction of electron flow, not to the polarity of the electrodes"@en ;
+   <http://purl.org/dc/terms/source> "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+ ] .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_3663991d-9319-4f7a-922b-f0e428b58801
+<http://emmo.info/electrochemistry#electrochemistry_3663991d-9319-4f7a-922b-f0e428b58801> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "PorousElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_38755e67_9d3b_4a82_bd8d_ef40a70379c1
+<http://emmo.info/electrochemistry#electrochemistry_38755e67_9d3b_4a82_bd8d_ef40a70379c1> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          owl:disjointWith <http://emmo.info/electrochemistry#electrochemistry_9b6853e7_3412_463d_b5a9_82c14acebf7d> ;
+                                                                                          rdfs:comment "usually used in a flow cell system"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "AnolyteTank"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_3979cd56_6256_414d_966c_7f723bf71e37
+<http://emmo.info/electrochemistry#electrochemistry_3979cd56_6256_414d_966c_7f723bf71e37> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_eacb141f_6ab4_491f_8603_a3e025cefc82> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "ButtonCase"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "CoinCase"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_3f70e5c5_67f0_483e_998b_b83b7739c4bc
+<http://emmo.info/electrochemistry#electrochemistry_3f70e5c5_67f0_483e_998b_b83b7739c4bc> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Terminal"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_43cd6e14_dd43_41b5_b5b4_344d53841603
+<http://emmo.info/electrochemistry#electrochemistry_43cd6e14_dd43_41b5_b5b4_344d53841603> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_1aec4cc0_82d5_4042_a657_ed7fe291c3d8> ,
+                                                                                                          <http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "PrismaticCase"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_4977521c_0438_4659_bc81_1c77fae836bb
+<http://emmo.info/electrochemistry#electrochemistry_4977521c_0438_4659_bc81_1c77fae836bb> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "ThionylChlorideElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_49909cd1_44f4_41b4_877a_82a52845a5cb
+<http://emmo.info/electrochemistry#electrochemistry_49909cd1_44f4_41b4_877a_82a52845a5cb> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Spacer"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_4a5660bd_1c1a_40e5_8a41_463c720d3903
+<http://emmo.info/electrochemistry#electrochemistry_4a5660bd_1c1a_40e5_8a41_463c720d3903> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "CellCan"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_5186239a_2af7_4dbf_92ca_22e8e583c528
+<http://emmo.info/electrochemistry#electrochemistry_5186239a_2af7_4dbf_92ca_22e8e583c528> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "BlendedActiveElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_522f0c0b_cf33_4328_af71_12e38dae6798
+<http://emmo.info/electrochemistry#electrochemistry_522f0c0b_cf33_4328_af71_12e38dae6798> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_3f70e5c5_67f0_483e_998b_b83b7739c4bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "PositiveTerminal"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_58413d4e_2885_459e_ac06_8d45e661cf91
+<http://emmo.info/electrochemistry#electrochemistry_58413d4e_2885_459e_ac06_8d45e661cf91> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "PorousSeparator"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_5adb91e0_ffe1_41f3_b779_c6966f65fb0e
+<http://emmo.info/electrochemistry#electrochemistry_5adb91e0_ffe1_41f3_b779_c6966f65fb0e> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          rdfs:comment "the term metal is meant to loosely cover alkali metals, alkaline earth metals, transition metals, post-transition metals, and metalloids"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "MetalElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_5c0fdc09_166e_40a6_ad74_be66f0db51bc
+<http://emmo.info/electrochemistry#electrochemistry_5c0fdc09_166e_40a6_ad74_be66f0db51bc> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "CarbonMonofluorideElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_60bc27f0_8290_4113_8c3b_011433a733c7
+<http://emmo.info/electrochemistry#electrochemistry_60bc27f0_8290_4113_8c3b_011433a733c7> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "TerminalCover"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "TerminalProtector"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_6235cc7c_2eee_432a_93af_47d7e05db007
+<http://emmo.info/electrochemistry#electrochemistry_6235cc7c_2eee_432a_93af_47d7e05db007> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "HardCarbonElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_637c576e_a50e_47ae_8c74_2024ce4c6d0f
+<http://emmo.info/electrochemistry#electrochemistry_637c576e_a50e_47ae_8c74_2024ce4c6d0f> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          rdfs:comment "A typical construction is a tube of an inert material (e.g. agar agar) filled with a solution containing an electrolyte with approximately equal ion mobilities of the cation and the anion (e.g., KNO3, KCl), with the ends of the tube immersed in the electrolyte solution of the half cells."@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "SaltBridge"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_6385e07f_f40d_46b2_b998_c439950d75cb
+<http://emmo.info/electrochemistry#electrochemistry_6385e07f_f40d_46b2_b998_c439950d75cb> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_872b11e1_8bb3_4a2a_af90_bbaa0055d01e> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "WaveSpring"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_68eb5e35_5bd8_47b1_9b7f_f67224fa291e
+<http://emmo.info/electrochemistry#electrochemistry_68eb5e35_5bd8_47b1_9b7f_f67224fa291e> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "ElectrodeBinder"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Binder"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_74459386_875c_4303_b774_60125b599d06
+<http://emmo.info/electrochemistry#electrochemistry_74459386_875c_4303_b774_60125b599d06> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_1aec4cc0_82d5_4042_a657_ed7fe291c3d8> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "PouchCase"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_757eae08_4d43_42d4_8b4e_8a0bfd2f9a1c
+<http://emmo.info/electrochemistry#electrochemistry_757eae08_4d43_42d4_8b4e_8a0bfd2f9a1c> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "IntercalationElectrode"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "InsertionElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_76df6e7b_fc3b_4a1f_98b1_0ca9c0539e4c
+<http://emmo.info/electrochemistry#electrochemistry_76df6e7b_fc3b_4a1f_98b1_0ca9c0539e4c> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "OutputCable"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_81833d8a_b03d_4250_be84_6385415beb01
+<http://emmo.info/electrochemistry#electrochemistry_81833d8a_b03d_4250_be84_6385415beb01> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ,
+                                                                                                          <http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "ActiveMaterialMix"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594
+<http://emmo.info/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "ElectronicallyConductiveElectrodeAdditive"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "ConductiveAdditive"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_871bc4a4_2d17_4b88_9b0f_7ab85f14afea
+<http://emmo.info/electrochemistry#electrochemistry_871bc4a4_2d17_4b88_9b0f_7ab85f14afea> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ,
+                                                                                                          :DryCoatedElectrode ;
+                                                                                          owl:disjointWith <http://emmo.info/electrochemistry#electrochemistry_fb988878_ee54_4350_9ee9_228c00c3ad35> ;
+                                                                                          rdfs:comment "An auxiliary electrode is used in any three-electrode cell, together with a working electrode and reference electrode."@en ,
+                                                                                                       "An auxiliary electrode must not add an excessive potential burden to the cell. It is chosen for the efficiency of the electrochemical reaction and usually has a greater surface area than the working electrode."@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "AuxiliaryElectrode"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "CounterElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_872b11e1_8bb3_4a2a_af90_bbaa0055d01e
+<http://emmo.info/electrochemistry#electrochemistry_872b11e1_8bb3_4a2a_af90_bbaa0055d01e> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Spring"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_88d2d4bc_4244_4419_a260_ad099a62d580
+<http://emmo.info/electrochemistry#electrochemistry_88d2d4bc_4244_4419_a260_ad099a62d580> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "SulfurElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_92147e31_d015_4889_a092_04fbab033f15
+<http://emmo.info/electrochemistry#electrochemistry_92147e31_d015_4889_a092_04fbab033f15> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Plate"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_98d5101e_cd11_4a0d_b856_6fcd8aad132e
+<http://emmo.info/electrochemistry#electrochemistry_98d5101e_cd11_4a0d_b856_6fcd8aad132e> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_872b11e1_8bb3_4a2a_af90_bbaa0055d01e> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "BellevilleWasher"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc
+<http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          owl:disjointWith <http://emmo.info/electrochemistry#electrochemistry_a0a619d7_da95_41f0_8bc3_9c19d636d543> ;
+                                                                                          rdfs:comment "the opposite of an inert electrode"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "NonInertElectrode"@en ,
+                                                                                                                                         "ReactiveElectrode" ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "ActiveElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_9b6853e7_3412_463d_b5a9_82c14acebf7d
+<http://emmo.info/electrochemistry#electrochemistry_9b6853e7_3412_463d_b5a9_82c14acebf7d> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          rdfs:comment "usually used in a flow cell system"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "CatholyteTank"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_9f466223_e20a_474d_ac4d_6d4b6131c275
+<http://emmo.info/electrochemistry#electrochemistry_9f466223_e20a_474d_ac4d_6d4b6131c275> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          rdfs:comment "this is a desirable characteristic for a reference electrode" ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "NonPolarizableElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_a0a619d7_da95_41f0_8bc3_9c19d636d543
+<http://emmo.info/electrochemistry#electrochemistry_a0a619d7_da95_41f0_8bc3_9c19d636d543> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          rdfs:comment "Noble metals, mercury, and carbon are typically used as (nearly) inert electrodes."@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "InertElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_a0fcb105_587f_45d8_a89a_46dc8f745069
+<http://emmo.info/electrochemistry#electrochemistry_a0fcb105_587f_45d8_a89a_46dc8f745069> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          rdfs:comment "a jacket may be made of metal (insulated from the cell terminals), plastic, paper or other suitable material"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Jacket"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_a0fcb105_587f_45d8_a89a_46dc8f745069> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "a jacket may be made of metal (insulated from the cell terminals), plastic, paper or other suitable material"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_a2f4dca3_829f_412b_9025_bd7581aad82a
+<http://emmo.info/electrochemistry#electrochemistry_a2f4dca3_829f_412b_9025_bd7581aad82a> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          rdfs:comment "a valve has a characteristic venting or opening and closing pressure"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Valve"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_a2f4dca3_829f_412b_9025_bd7581aad82a> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "a valve has a characteristic venting or opening and closing pressure"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_a8bfac4f_3f30_4e6d_8d8e_34b1eeecb614
+<http://emmo.info/electrochemistry#electrochemistry_a8bfac4f_3f30_4e6d_8d8e_34b1eeecb614> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "RoundElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_ae56cce3_7a7c_4e53_bb58_31e0d642d47e
+<http://emmo.info/electrochemistry#electrochemistry_ae56cce3_7a7c_4e53_bb58_31e0d642d47e> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          rdfs:comment "this flame front may originate from a spark or an external naked flame igniting combustible electrolysis gas"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "FlameArrestorVent"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_ae56cce3_7a7c_4e53_bb58_31e0d642d47e> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "this flame front may originate from a spark or an external naked flame igniting combustible electrolysis gas"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_aff732a9_238a_4734_977c_b2ba202af126
+<http://emmo.info/electrochemistry#electrochemistry_aff732a9_238a_4734_977c_b2ba202af126> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          rdfs:comment "by convention, a reduction reaction occurs during discharge"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "PositivePlate"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "PositiveElectrode"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_aff732a9_238a_4734_977c_b2ba202af126> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "by convention, a reduction reaction occurs during discharge"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_b1cf9fee_2164_4f95_8204_90f717373a8a
+<http://emmo.info/electrochemistry#electrochemistry_b1cf9fee_2164_4f95_8204_90f717373a8a> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_eacb141f_6ab4_491f_8603_a3e025cefc82> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "CylindricalCase"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_b2d11f0d_c1b0_4476_8d17_03b73d31e01f
+<http://emmo.info/electrochemistry#electrochemistry_b2d11f0d_c1b0_4476_8d17_03b73d31e01f> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_a2a68924_b759_4ba4_a25d_126021569fb9> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "AsymmetricMembrane"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82
+<http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186> ;
+                                                                                          rdfs:comment "a constituent is essential to the functioning of the system and cannot be replaced by a comparable thing without altering the behaviour of the system" ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrochemicalConstituent"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302
+<http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          rdfs:comment "at an anode, electrons are produced in a galvanic cell or extracted in an electrolytic cell"@en ,
+                                                                                                       "electrode of an electrochemical cell through which net electric current flows and at which the predominating electrochemical reaction is an oxidation"@en ,
+                                                                                                       "the anode is the negative electrode during discharge and the positive electrode during charge"@en ,
+                                                                                                       "the concepts of “anode” and “cathode” are related only to the direction of electron flow, not to the polarity of the electrodes"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Anode"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "at an anode, electrons are produced in a galvanic cell or extracted in an electrolytic cell"@en ;
+   <http://purl.org/dc/terms/source> "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "electrode of an electrochemical cell through which net electric current flows and at which the predominating electrochemical reaction is an oxidation"@en ;
+   <http://purl.org/dc/terms/source> "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "the anode is the negative electrode during discharge and the positive electrode during charge"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_b6319c74_d2ce_48c0_a75a_63156776b302> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "the concepts of “anode” and “cathode” are related only to the direction of electron flow, not to the polarity of the electrodes"@en ;
+   <http://purl.org/dc/terms/source> "J. M. Pingarrón et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"
+ ] .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_b851c7e9_60bf_4d3d_abe1_8d08d3d85124
+<http://emmo.info/electrochemistry#electrochemistry_b851c7e9_60bf_4d3d_abe1_8d08d3d85124> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_3f70e5c5_67f0_483e_998b_b83b7739c4bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "NegativeTerminal"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_bbc77932_643b_4603_a4e8_970ef06a76ad
+<http://emmo.info/electrochemistry#electrochemistry_bbc77932_643b_4603_a4e8_970ef06a76ad> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "EdgeInsulator"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_c2024587_3237_474e_8df9_91d10db2df47
+<http://emmo.info/electrochemistry#electrochemistry_c2024587_3237_474e_8df9_91d10db2df47> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "PolarizableElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_c831d963_629a_41ab_850f_97fb6841b739
+<http://emmo.info/electrochemistry#electrochemistry_c831d963_629a_41ab_850f_97fb6841b739> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "GraphiteElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_c94c041b_8ea6_43e7_85cc_d2bce7785b4c
+<http://emmo.info/electrochemistry#electrochemistry_c94c041b_8ea6_43e7_85cc_d2bce7785b4c> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          rdfs:comment "by convention, an oxidation reaction occurs during discharge"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "NegativePlate"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "NegativeElectrode"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://emmo.info/electrochemistry#electrochemistry_c94c041b_8ea6_43e7_85cc_d2bce7785b4c> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "by convention, an oxidation reaction occurs during discharge"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_cc1f854a_ba6c_436e_bd18_c8b9159bbf52
+<http://emmo.info/electrochemistry#electrochemistry_cc1f854a_ba6c_436e_bd18_c8b9159bbf52> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "VentCap"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_d1042a12_e4be_4992_86cb_59420ef4e05c
+<http://emmo.info/electrochemistry#electrochemistry_d1042a12_e4be_4992_86cb_59420ef4e05c> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b5ea31c9_bb10_4276_980e_c3eceb1efc82> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "ChargeCarrier"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_d11b0e66_c35b_4da7_80a1_037ce89b77fb
+<http://emmo.info/electrochemistry#electrochemistry_d11b0e66_c35b_4da7_80a1_037ce89b77fb> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_58413d4e_2885_459e_ac06_8d45e661cf91> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#altLabel> "FibreglassSeparator"@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "GlassFibreSeparator"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_d2726dd5_69f0_4cb1_bd3c_4c48813e57e7
+<http://emmo.info/electrochemistry#electrochemistry_d2726dd5_69f0_4cb1_bd3c_4c48813e57e7> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "IronDisulfideElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_d8a78cd2_8107_46dd_a198_0b64676efc00
+<http://emmo.info/electrochemistry#electrochemistry_d8a78cd2_8107_46dd_a198_0b64676efc00> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Connector"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_e4b6cb36_4dac_49e3_871d_40bcfca943a5
+<http://emmo.info/electrochemistry#electrochemistry_e4b6cb36_4dac_49e3_871d_40bcfca943a5> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_9a823d64_9d10_4a29_9cbd_9bbdad7985bc> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "MetalOxideElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_e94f6d42_35e4_4f9f_bb74_5e0628bbd454
+<http://emmo.info/electrochemistry#electrochemistry_e94f6d42_35e4_4f9f_bb74_5e0628bbd454> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_43cd6e14_dd43_41b5_b5b4_344d53841603> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "MonoblocContainer"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_eacb141f_6ab4_491f_8603_a3e025cefc82
+<http://emmo.info/electrochemistry#electrochemistry_eacb141f_6ab4_491f_8603_a3e025cefc82> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_1aec4cc0_82d5_4042_a657_ed7fe291c3d8> ,
+                                                                                                          <http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "RoundCase"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_f1c7eacb_9f21_4100_925c_3974f266e06f
+<http://emmo.info/electrochemistry#electrochemistry_f1c7eacb_9f21_4100_925c_3974f266e06f> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_b2d11f0d_c1b0_4476_8d17_03b73d31e01f> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "BilayerMembrane"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_f330680b_347e_45b3_9113_5ce09d18d60b
+<http://emmo.info/electrochemistry#electrochemistry_f330680b_347e_45b3_9113_5ce09d18d60b> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "PressureReliefVent"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_f6fcd255_248d_4603_b128_04dab960a676
+<http://emmo.info/electrochemistry#electrochemistry_f6fcd255_248d_4603_b128_04dab960a676> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          rdfs:comment "If processes of interest occur both at the anode and the cathode of a cell (as in differential amperometry or controlled-current potentiometric titration with two indicator electrodes), the cell should be said to comprise two indicator or working electrodes."@en ,
+                                                                                                       "This term is typically used in potentiometry."@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "IndicatorElectrode"@en .
+
+
+###  http://emmo.info/electrochemistry#electrochemistry_fb988878_ee54_4350_9ee9_228c00c3ad35
+<http://emmo.info/electrochemistry#electrochemistry_fb988878_ee54_4350_9ee9_228c00c3ad35> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627> ;
+                                                                                          rdfs:comment "If processes of interest occur both at the anode and the cathode of a cell (as in differential amperometry or controlled-current potentiometric titration with two indicator electrodes), the cell should be said to comprise two indicator or working electrodes."@en ,
+                                                                                                       "Te potential of a working electrode is controlled with respect to the reference electrode."@en ,
+                                                                                                       "This term is typically used in voltammetry, polarography, amperometry, and coulometry."@en ;
+                                                                                          <http://www.w3.org/2004/02/skos/core#prefLabel> "WorkingElectrode"@en .
+
+
+###  http://emmo.info/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819
+<http://emmo.info/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0> ;
+                                                                  rdfs:comment """In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1"""@en ,
+                                                                               """Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions."""@en ,
+                                                                               """Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind. 
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind. 
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only. 
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides. 
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m)."""@en ,
+                                                                               """— quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1"""@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalQuantity"@en .
+
+
+###  http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40
+<http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40> rdf:type owl:Class ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Symbolic"@en .
+
+
+###  http://emmo.info/emmo#EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895
+<http://emmo.info/emmo#EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Variable"@en .
+
+
+###  http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0
+<http://emmo.info/emmo#EMMO_1efe8b96_e006_4a33_bc9a_421406cbb9f0> rdf:type owl:Class ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Whole" .
+
+
+###  http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8
+<http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
+                                                                  rdfs:comment """From Old French \"deviser\", meaning: arrange, plan, contrive.
+
+Literally \"dispose in portions,\" from Vulgar Latin \"divisare\", frequentative of Latin dividere, meaning \"to divide\"."""@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Device"@en .
+
+
+###  http://emmo.info/emmo#EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa
+<http://emmo.info/emmo#EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Numerical"@en .
+
+
+###  http://emmo.info/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0
+<http://emmo.info/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8> ;
+                                                                  rdfs:comment "A mathematical object in this branch is not representing a concept but an actual graphical object built using mathematcal symbols arranged in some way, according to math conventions." ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Mathematical"@en .
+
+
+###  http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad
+<http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> rdf:type owl:Class ;
+                                                                  rdfs:comment "The 'Engineered' branch represents real world objects that show some level of complexity/heterogeneity in their composition, and are made for a specific use."@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Engineered"@en .
+
+
+###  http://emmo.info/emmo#EMMO_a2a68924_b759_4ba4_a25d_126021569fb9
+<http://emmo.info/emmo#EMMO_a2a68924_b759_4ba4_a25d_126021569fb9> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Membrane"@en .
+
+
+###  http://emmo.info/emmo#EMMO_ae15fb4f_8e4d_41de_a0f9_3997f89ba6a2
+<http://emmo.info/emmo#EMMO_ae15fb4f_8e4d_41de_a0f9_3997f89ba6a2> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Constant"@en .
+
+
+###  http://emmo.info/emmo#EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186
+<http://emmo.info/emmo#EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186> rdf:type owl:Class ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Constituent"@en .
+
+
+###  http://emmo.info/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a
+<http://emmo.info/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895> ;
+                                                                  rdfs:comment "A 'variable' whose value is assumed to be known independently from the equation, but whose value is not explicitated in the equation."@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Parameter"@en .
+
+
+###  http://emmo.info/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8
+<http://emmo.info/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Language"@en .
+
+
+###  http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
+<http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad> ;
+                                                                  rdfs:comment "A material that is synthesized within a manufacturing process."@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "EngineeredMaterial"@en .
+
+
+###  http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817
+<http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://emmo.info/emmo#EMMO_ceaaf9f7_fd11_424b_8fda_9afa186af186> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Component"@en .
+
+
+###  http://w3id.org/MUSICODE/Onto4OLAE/DeviceParameter
+<http://w3id.org/MUSICODE/Onto4OLAE/DeviceParameter> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://emmo.info/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a> ;
+                                                     rdfs:comment "Device parameters can vary depending on the type of electronic device but may include parameters such as electrical Parameters, thermal Parameters, optical parameters, mechanical Parameters, and etc."@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#definition> "The parameters of an electronic device determine how the device behaves, performs, and operates."@en ;
+                                                     <http://www.w3.org/2004/02/skos/core#prefLabel> "DeviceParameter"@en .
+
+
+###  http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice
+<http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "Equipment used to produce organic electrical devices on a large scale is referred to as a fabrication device. The manufacturing of a variety of components, including organic thin-film transistors (OTFTs), organic photovoltaics (OPVs), organic light-emitting diodes (OLEDs), and other organic-based electronic devices, often uses these devices."@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "FabricationDevice"@en .
+
+
+###  http://w3id.org/MUSICODE/Onto4OLAE/ProcessParameter
+<http://w3id.org/MUSICODE/Onto4OLAE/ProcessParameter> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://emmo.info/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a> ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessParameter"@en .
+
+
+###  http://w3id.org/MUSICODE/Onto4OLAE/characterizationDevice
+<http://w3id.org/MUSICODE/Onto4OLAE/characterizationDevice> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://emmo.info/emmo#EMMO_494b372c_cfdf_47d3_a4de_5e037c540de8> ;
+                                                            <http://www.w3.org/2004/02/skos/core#definition> "The equipment or instrument used to characterize and measure the electrical, optical, and structural properties of organic electronic devices."@en ;
+                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "CharacterizationDevice"@en .
+
+
+###  http://w3id.org/POLIS/BA/Anode
+:Anode rdf:type owl:Class ;
+       rdfs:subClassOf :WorkingElectrode ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :isComponentOf ;
+                         owl:someValuesFrom :BatteryCell
+                       ] ;
+       <http://www.w3.org/2004/02/skos/core#definition> "The electrode where oxidation (loss of electrons) occurs during discharge." ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Anode" .
+
+
+###  http://w3id.org/POLIS/BA/BMS
+:BMS rdf:type owl:Class ;
+     rdfs:subClassOf :MonitoringAndControlSystem ;
+     owl:disjointWith :CellVoltageMonitoringSystem ;
+     <http://www.w3.org/2004/02/skos/core#definition> "The overall system that manages and protects the battery, including functions like cell balancing, temperature control, and state-of-charge estimation." ;
+     <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryManagementsystem" .
+
+
+###  http://w3id.org/POLIS/BA/BatteryCell
+:BatteryCell rdf:type owl:Class ;
+             rdfs:subClassOf :ElectrochemicalDevice ,
+                             :Output ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasSafetyFeature ;
+                               owl:someValuesFrom :SafetyFeature
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :include ;
+                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                               owl:onClass :ExternalStructure
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :isManagedBy ;
+                               owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                               owl:onClass :BMS
+                             ] ;
+             <http://www.w3.org/2004/02/skos/core#definition> "We should call it cell assembly so to say" ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryCell" .
+
+
+###  http://w3id.org/POLIS/BA/Calendring
+:Calendring rdf:type owl:Class ;
+            rdfs:subClassOf :PostCoatingOperation ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Calendring"@en .
+
+
+###  http://w3id.org/POLIS/BA/Cathode
+:Cathode rdf:type owl:Class ;
+         rdfs:subClassOf :WorkingElectrode ;
+         <http://www.w3.org/2004/02/skos/core#definition> "The material in the anode and cathode that undergoes the electrochemical reactions." ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Cathode" .
+
+
+###  http://w3id.org/POLIS/BA/CellAssembly
+:CellAssembly rdf:type owl:Class ;
+              rdfs:subClassOf :ElectrochemicalCellManufacturing ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasComponent ;
+                                owl:someValuesFrom :CoatedElectrode
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasComponent ;
+                                owl:someValuesFrom :CounterElectrode
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasComponent ;
+                                owl:someValuesFrom :Electrolyte
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasOutput ;
+                                owl:someValuesFrom :BatteryCell
+                              ] ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "CellAssembly"@en .
+
+
+###  http://w3id.org/POLIS/BA/CellVoltageMonitoringSystem
+:CellVoltageMonitoringSystem rdf:type owl:Class ;
+                             rdfs:subClassOf :MonitoringAndControlSystem ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :monitors ;
+                                               owl:someValuesFrom :BatteryCell
+                                             ] ;
+                             <http://www.w3.org/2004/02/skos/core#definition> "Electronics for monitoring the voltage of individual cells for balancing and safety." ;
+                             <http://www.w3.org/2004/02/skos/core#prefLabel> "CellVoltageMonitoringSystem" .
+
+
+###  http://w3id.org/POLIS/BA/CoatedElectrode
+:CoatedElectrode rdf:type owl:Class ;
+                 rdfs:subClassOf :Output ;
+                 <http://www.w3.org/2004/02/skos/core#definition> "The outcome of the electrode coating process." ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "CoatedElectrode" .
+
+
+###  http://w3id.org/POLIS/BA/CoatingDevice
+:CoatingDevice rdf:type owl:Class ;
+               rdfs:subClassOf <http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice> ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "CoatingDevice"@en .
+
+
+###  http://w3id.org/POLIS/BA/CoinCell
+:CoinCell rdf:type owl:Class ;
+          rdfs:subClassOf :BatteryCell ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "CoinCell"@en .
+
+
+###  http://w3id.org/POLIS/BA/CoinCellAssembly
+:CoinCellAssembly rdf:type owl:Class ;
+                  rdfs:subClassOf :CellAssembly ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasComponent ;
+                                    owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0>
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasComponent ;
+                                    owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_3979cd56_6256_414d_966c_7f723bf71e37>
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasComponent ;
+                                    owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_49909cd1_44f4_41b4_877a_82a52845a5cb>
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasComponent ;
+                                    owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_872b11e1_8bb3_4a2a_af90_bbaa0055d01e>
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasComponent ;
+                                    owl:someValuesFrom :CoatedElectrode
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasComponent ;
+                                    owl:someValuesFrom :CounterElectrode
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasComponent ;
+                                    owl:someValuesFrom :Electrolyte
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasComponent ;
+                                    owl:someValuesFrom :InsulationRing
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasOutput ;
+                                    owl:someValuesFrom :CoinCell
+                                  ] ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "CoinCellAssembly"@en .
+
+
+###  http://w3id.org/POLIS/BA/ConductiveSalt
+:ConductiveSalt rdf:type owl:Class ;
+                rdfs:subClassOf :Electrolyte ;
+                <http://www.w3.org/2004/02/skos/core#definition> "A salt dissolved in the electrolyte that facilitates the movement of ions." ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "ConductiveSalt" .
+
+
+###  http://w3id.org/POLIS/BA/Container
+:Container rdf:type owl:Class ;
+           rdfs:subClassOf :ExternalStructure ;
+           owl:disjointWith :VentilationChannel ;
+           <http://www.w3.org/2004/02/skos/core#definition> "The outer housing that protects the internal components." ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Case/Container" .
+
+
+###  http://w3id.org/POLIS/BA/CounterElectrode
+:CounterElectrode rdf:type owl:Class ;
+                  rdfs:subClassOf :Electrode .
+
+
+###  http://w3id.org/POLIS/BA/Cutting
+:Cutting rdf:type owl:Class ;
+         rdfs:subClassOf :ElectrodeShaping ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrodeCutting"@en .
+
+
+###  http://w3id.org/POLIS/BA/DieCuttingMachine
+:DieCuttingMachine rdf:type owl:Class ;
+                   rdfs:subClassOf :ShapingDevice .
+
+
+###  http://w3id.org/POLIS/BA/DoctorBlade
+:DoctorBlade rdf:type owl:Class ;
+             rdfs:subClassOf :CoatingDevice ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "DoctorBlade"@en .
+
+
+###  http://w3id.org/POLIS/BA/DryCoatedElectrode
+:DryCoatedElectrode rdf:type owl:Class ;
+                    rdfs:subClassOf :CoatedElectrode ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :isShapedBy ;
+                                      owl:someValuesFrom :ElectrodeShaping
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :undergo ;
+                                      owl:someValuesFrom :PostCoatingOperation
+                                    ] ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "DryCoatedElectrode"@en .
+
+
+###  http://w3id.org/POLIS/BA/DryingDevice
+:DryingDevice rdf:type owl:Class ;
+              rdfs:subClassOf <http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice> ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "DryingDevice"@en .
+
+
+###  http://w3id.org/POLIS/BA/ElectrochemicalCellManufacturing
+:ElectrochemicalCellManufacturing rdf:type owl:Class ;
+                                  rdfs:subClassOf <https://w3id.org/emmo/domain/battery#battery_7c072505_7ea6_4bfd_8403_7133b3a4b806> ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrochemicalCellManufacturing" .
+
+
+###  http://w3id.org/POLIS/BA/ElectrochemicalDevice
+:ElectrochemicalDevice rdf:type owl:Class ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrochemicalDevice" .
+
+
+###  http://w3id.org/POLIS/BA/Electrode
+:Electrode rdf:type owl:Class ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Electrode" .
+
+
+###  http://w3id.org/POLIS/BA/ElectrodeCaating
+:ElectrodeCaating rdf:type owl:Class ;
+                  rdfs:subClassOf :ElectrochemicalCellManufacturing ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasCurrentCollector ;
+                                    owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_212af058_3bbb_419f_a9c6_90ba9ebb3706>
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasOutput ;
+                                    owl:someValuesFrom :WetCoatedElectrode
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :performedOn ;
+                                    owl:someValuesFrom :CoatingDevice
+                                  ] ;
+                  <http://www.w3.org/2004/02/skos/core#definition> "An electrode coating is a thin layer of slurry applied to the surface of a current collector as part of a cell or battery assembly."@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrodeCaating"@en .
+
+
+###  http://w3id.org/POLIS/BA/ElectrodePunching
+:ElectrodePunching rdf:type owl:Class ;
+                   rdfs:subClassOf :ElectrodeShaping ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrodePunching"@en .
+
+
+###  http://w3id.org/POLIS/BA/ElectrodeShaping
+:ElectrodeShaping rdf:type owl:Class ;
+                  rdfs:subClassOf :ElectrochemicalCellManufacturing ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasParticipant ;
+                                    owl:someValuesFrom :ShapingDevice
+                                  ] ;
+                  <http://www.w3.org/2004/02/skos/core#definition> """During the shaping process the electrode material is shaped into the desired dimensions and form required for assembly into a battery cell.
+
+To achieve the desired shape, it typically involves techniques such as calendaring, extrusion, cutting, or punching."""@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrodeShaping"@en .
+
+
+###  http://w3id.org/POLIS/BA/ElectrodeSlurry
+:ElectrodeSlurry rdf:type owl:Class ;
+                 rdfs:subClassOf :Output ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :isAppliedBy ;
+                                   owl:someValuesFrom :DoctorBlade
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :isAppliedOn ;
+                                   owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_212af058_3bbb_419f_a9c6_90ba9ebb3706>
+                                 ] ;
+                 rdfs:comment "The outcome of the Electrode Slurry prepration Process." ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrodeSlurry"@en .
+
+
+###  http://w3id.org/POLIS/BA/ElectrodeSlurryPrepration
+:ElectrodeSlurryPrepration rdf:type owl:Class ;
+                           rdfs:subClassOf :ElectrochemicalCellManufacturing ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :hasActiveMaterial ;
+                                             owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_81833d8a_b03d_4250_be84_6385415beb01>
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :hasBinder ;
+                                             owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_68eb5e35_5bd8_47b1_9b7f_f67224fa291e>
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :hasConductiveAdditive ;
+                                             owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594>
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :hasOutput ;
+                                             owl:someValuesFrom :ElectrodeSlurry
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :hasParticipant ;
+                                             owl:someValuesFrom :ElectrodeSlurryPreprationDevice
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :hasSolvent ;
+                                             owl:someValuesFrom <https://w3id.org/emmo/domain/chemicalsubstance#substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1>
+                                           ] ;
+                           <http://www.w3.org/2004/02/skos/core#definition> "The process of electrode slurry formation involves the preparation of a mixture or slurry containing active materials, conductive additives, binders, and a liquid medium."@en ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrodeSlurryPrepration"@en .
+
+
+###  http://w3id.org/POLIS/BA/ElectrodeSlurryPreprationDevice
+:ElectrodeSlurryPreprationDevice rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice> ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasParameter ;
+                                                   owl:someValuesFrom <http://w3id.org/MUSICODE/Onto4OLAE/DeviceParameter>
+                                                 ] ;
+                                 <http://www.w3.org/2004/02/skos/core#definition> "The slurry prepration device is typically designed for preparing the essential component of an electrode, i.e., slurry, which is a mixture of active material, conductive additives, and binder in a suitable solvent." ;
+                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrodeSlurryPreprationDevice"@en .
+
+
+###  http://w3id.org/POLIS/BA/Electrolyte
+:Electrolyte rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :isComponentOf ;
+                               owl:someValuesFrom :BatteryCell
+                             ] ;
+             <http://www.w3.org/2004/02/skos/core#definition> "A substance that allows ions to move between the anode and cathode." ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Electrolyte" .
+
+
+###  http://w3id.org/POLIS/BA/ElectrolyteAdditives
+:ElectrolyteAdditives rdf:type owl:Class ;
+                      rdfs:subClassOf :Electrolyte ;
+                      <http://www.w3.org/2004/02/skos/core#definition> "Various chemicals added to the electrolyte to enhance performance and safety." ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrolyteAdditives" .
+
+
+###  http://w3id.org/POLIS/BA/ElectrolyteSolvent
+:ElectrolyteSolvent rdf:type owl:Class ;
+                    rdfs:subClassOf :Electrolyte ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrolyteSolvent" .
+
+
+###  http://w3id.org/POLIS/BA/ExternalStructure
+:ExternalStructure rdf:type owl:Class ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "ExternalStructure" .
+
+
+###  http://w3id.org/POLIS/BA/FullCell
+:FullCell rdf:type owl:Class ;
+          rdfs:subClassOf :CoinCell ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "FullCell"@en .
+
+
+###  http://w3id.org/POLIS/BA/HalfCell
+:HalfCell rdf:type owl:Class ;
+          rdfs:subClassOf :CoinCell ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "HalfCell"@en .
+
+
+###  http://w3id.org/POLIS/BA/InsulationRing
+:InsulationRing rdf:type owl:Class ;
+                rdfs:subClassOf <http://emmo.info/emmo#EMMO_f76884f7_964e_488e_9bb7_1b2453e9e817> ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "InsulationRing"@en .
+
+
+###  http://w3id.org/POLIS/BA/MonitoringAndControlSystem
+:MonitoringAndControlSystem rdf:type owl:Class ;
+                            <http://www.w3.org/2004/02/skos/core#prefLabel> "MonitoringAndControlSystem" .
+
+
+###  http://w3id.org/POLIS/BA/Output
+:Output rdf:type owl:Class .
+
+
+###  http://w3id.org/POLIS/BA/Oven
+:Oven rdf:type owl:Class ;
+      rdfs:subClassOf :DryingDevice .
+
+
+###  http://w3id.org/POLIS/BA/PostCoatingOperation
+:PostCoatingOperation rdf:type owl:Class ;
+                      rdfs:subClassOf :ElectrochemicalCellManufacturing ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "PostCoatingOperation"@en .
+
+
+###  http://w3id.org/POLIS/BA/PouchCell
+:PouchCell rdf:type owl:Class ;
+           rdfs:subClassOf :BatteryCell ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "PouchCell"@en .
+
+
+###  http://w3id.org/POLIS/BA/PouchCellAssembly
+:PouchCellAssembly rdf:type owl:Class ;
+                   rdfs:subClassOf :CellAssembly ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "PouchCellAssembly"@en .
+
+
+###  http://w3id.org/POLIS/BA/PunchPress
+:PunchPress rdf:type owl:Class ;
+            rdfs:subClassOf :ShapingDevice .
+
+
+###  http://w3id.org/POLIS/BA/ReferenceElectrode
+:ReferenceElectrode rdf:type owl:Class ;
+                    rdfs:subClassOf :Electrode .
+
+
+###  http://w3id.org/POLIS/BA/SafetyFeature
+:SafetyFeature rdf:type owl:Class ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "SafetyFeature" .
+
+
+###  http://w3id.org/POLIS/BA/ShapingDevice
+:ShapingDevice rdf:type owl:Class ;
+               rdfs:subClassOf <http://w3id.org/MUSICODE/Onto4OLAE/FabricationDevice> .
+
+
+###  http://w3id.org/POLIS/BA/SwagelokCell
+:SwagelokCell rdf:type owl:Class ;
+              rdfs:subClassOf :BatteryCell ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "SwagelokCell"@en .
+
+
+###  http://w3id.org/POLIS/BA/SwagelokCellAssembly
+:SwagelokCellAssembly rdf:type owl:Class ;
+                      rdfs:subClassOf :CellAssembly ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasComponent ;
+                                        owl:someValuesFrom <http://emmo.info/electrochemistry#electrochemistry_74459386_875c_4303_b774_60125b599d06>
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasComponent ;
+                                        owl:someValuesFrom :CounterElectrode
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasComponent ;
+                                        owl:someValuesFrom :ReferenceElectrode
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasComponent ;
+                                        owl:someValuesFrom :WorkingElectrode
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :hasOutput ;
+                                        owl:someValuesFrom :SwagelokCell
+                                      ] ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "SwagelokCellAssembly"@en .
+
+
+###  http://w3id.org/POLIS/BA/ThermalManagementSystem
+:ThermalManagementSystem rdf:type owl:Class ;
+                         rdfs:subClassOf :SafetyFeature ;
+                         owl:disjointWith :Vent ;
+                         <http://www.w3.org/2004/02/skos/core#definition> "Components or features designed to manage and control the temperature of the battery." ;
+                         <http://www.w3.org/2004/02/skos/core#prefLabel> "ThermalManagementSystem" .
+
+
+###  http://w3id.org/POLIS/BA/Vent
+:Vent rdf:type owl:Class ;
+      rdfs:subClassOf :SafetyFeature ;
+      <http://www.w3.org/2004/02/skos/core#definition> "A safety feature to release gas in case of overpressure." ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Vent" .
+
+
+###  http://w3id.org/POLIS/BA/VentilationChannel
+:VentilationChannel rdf:type owl:Class ;
+                    rdfs:subClassOf :ExternalStructure ;
+                    <http://www.w3.org/2004/02/skos/core#definition> "Channels designed to allow the release of heat or gas." ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "VentilationChannel" .
+
+
+###  http://w3id.org/POLIS/BA/WetCoatedElectrode
+:WetCoatedElectrode rdf:type owl:Class ;
+                    rdfs:subClassOf :CoatedElectrode ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :hasOutput ;
+                                      owl:someValuesFrom :DryCoatedElectrode
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :isDriedthrough ;
+                                      owl:someValuesFrom :DryingDevice
+                                    ] ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "WetCoatedElectrode"@en .
+
+
+###  http://w3id.org/POLIS/BA/WorkingElectrode
+:WorkingElectrode rdf:type owl:Class ;
+                  rdfs:subClassOf :DryCoatedElectrode ,
+                                  :Electrode ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "WorkingElectrode"@en .
+
+
+###  http://w3id.org/POLIS/BA/symmetricCell
+:symmetricCell rdf:type owl:Class ;
+               rdfs:subClassOf :CoinCell ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "symmetricCell"@en .
+
+
+###  http://w3id.org/POLIS/BA/#Interlayer
+<http://w3id.org/POLIS/BA/#Interlayer> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://w3id.org/POLIS/BA/#Separator> ;
+                                       <http://www.w3.org/2004/02/skos/core#definition> "An interlayer is a cell component that is sandwiched somewhere between the cathode and the anode" ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Interlayer" .
+
+
+###  http://w3id.org/POLIS/BA/#Separator
+<http://w3id.org/POLIS/BA/#Separator> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://w3id.org/POLIS/BA/#Internal_Structure/Physical_Components> ,
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :isComponentOf ;
+                                                        owl:someValuesFrom :BatteryCell
+                                                      ] ;
+                                      <http://www.w3.org/2004/02/skos/core#definition> "A physical barrier that keeps the anode and cathode apart, preventing a short circuit." ;
+                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Separator" .
+
+
+###  http://w3id.org/POLIS/BA/#Internal_Structure/Physical_Components
+<http://w3id.org/POLIS/BA/#Internal_Structure/Physical_Components> rdf:type owl:Class ;
+                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "InternalStructure" .
+
+
+###  https://w3id.org/emmo#EMMO_127594de_4802_4ad6_b09d_d05b340394dd
+<https://w3id.org/emmo#EMMO_127594de_4802_4ad6_b09d_d05b340394dd> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "IntangibleProduct"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Service"@en .
+
+
+###  https://w3id.org/emmo#EMMO_135ab8ea_e028_439e_be64_3e0f9734ea2b
+<https://w3id.org/emmo#EMMO_135ab8ea_e028_439e_be64_3e0f9734ea2b> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "NonIntentionalProcess"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "NaturalProcess"@en .
+
+
+###  https://w3id.org/emmo#EMMO_1c16bb7f_5400_4498_8ef2_54392908da4e
+<https://w3id.org/emmo#EMMO_1c16bb7f_5400_4498_8ef2_54392908da4e> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "HybridMatter"@en .
+
+
+###  https://w3id.org/emmo#EMMO_1f19b65b_35bf_4662_a318_7f1c147cb3b6
+<https://w3id.org/emmo#EMMO_1f19b65b_35bf_4662_a318_7f1c147cb3b6> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "CompositeBoson"@en .
+
+
+###  https://w3id.org/emmo#EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b
+<https://w3id.org/emmo#EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Behaviour"@en .
+
+
+###  https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a
+<https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98> ,
+                                                                                  <https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0> ,
+                                                                                  <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> ,
+                                                                                  <https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3> ;
+                                                                  rdfs:comment """Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.
+
+Note that the name of a compound may refer to the respective molecular entity or to the chemical species,""" ;
+                                                                  rdfs:isDefinedBy "https://goldbook.iupac.org/terms/view/M03986"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "ChemicalEntity"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "MolecularEntity"@en .
+
+
+###  https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db
+<https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Experiment"@en .
+
+
+###  https://w3id.org/emmo#EMMO_29108c7c_9087_4992_ab1c_02561665df21
+<https://w3id.org/emmo#EMMO_29108c7c_9087_4992_ab1c_02561665df21> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "CompositeFermion"@en .
+
+
+###  https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72
+<https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c> ;
+                                                                  rdfs:comment "Conversion of materials and assembly of components for the manufacture of products" ,
+                                                                               "Technology is the application of knowledge for achieving practical goals in a reproducible way." ,
+                                                                               "Technology refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes." ,
+                                                                               "application of scientific knowledge, tools, techniques, crafts or systems in order to solve a problem or to achieve an objective which can result in a product or process" ,
+                                                                               "application of scientific knowledge, tools, techniques, crafts, systems or methods of organization in order to solve a problem or achieve an objective" ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "ProductionEngineeringProcess"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "TechnologyProcess"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "Conversion of materials and assembly of components for the manufacture of products" ;
+   rdfs:seeAlso "DIN EN 14943:2006-03"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "Technology is the application of knowledge for achieving practical goals in a reproducible way." ;
+   rdfs:seeAlso "https://en.wikipedia.org/wiki/Technology"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "Technology refers to methods, systems, and devices which are the result of scientific knowledge being used for practical purposes." ;
+   rdfs:seeAlso "https://www.collinsdictionary.com/it/dizionario/inglese/technology"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "application of scientific knowledge, tools, techniques, crafts or systems in order to solve a problem or to achieve an objective which can result in a product or process" ;
+   rdfs:seeAlso "ISO 14034:2016-11"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "application of scientific knowledge, tools, techniques, crafts, systems or methods of organization in order to solve a problem or achieve an objective" ;
+   rdfs:seeAlso "EN 16603-11:2019-11"
+ ] .
+
+
+###  https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7
+<https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                  rdfs:comment "While every 'process' in the EMMO involves physical objects, this class is devoted to represent real world objects that express a phenomenon relevant for the ontologist"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalPhenomenon"@en .
+
+
+###  https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98
+<https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98> rdf:type owl:Class ;
+                                                                  owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1>
+                                                                                                             <https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3>
+                                                                                                           ) ;
+                                                                                        rdf:type owl:Class
+                                                                                      ] ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> ,
+                                                                                  <https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ParticulateMatter"@en .
+
+
+###  https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726
+<https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_b56c3aa6_28e5_4f9b_a4a5_93d8c68e1570> ;
+                                                                  owl:disjointUnionOf ( <https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c>
+                                                                                        <https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3>
+                                                                                      ) ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalObject"@en .
+
+
+###  https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94
+<https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644> ,
+                                                                                  <https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Material"@en .
+
+
+###  https://w3id.org/emmo#EMMO_4299e344_a321_4ef2_a744_bacfcce80afc
+<https://w3id.org/emmo#EMMO_4299e344_a321_4ef2_a744_bacfcce80afc> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "Job"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Task"@en .
+
+
+###  https://w3id.org/emmo#EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e
+<https://w3id.org/emmo#EMMO_436b11bd_1756_4821_9f14_c9ed6b67552e> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "PureSubstance"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ElementalSubstance" .
+
+
+###  https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
+<https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b> ;
+                                                                  rdfs:comment """Following the common definition of process, the reader may think that every whole should be a process, since every 4D object always has a time dimension. However, in the EMMO we restrict the meaning of the word process to items whose evolution in time have a particular meaning for the ontologist (i.e. every 4D object unfolds in time, but not every 4D time unfolding may be of interest for the ontologist and categorized as a process).
+
+For this reason, the definition of every specific process subclass requires the introduction of a primitive concept."""@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "Occurrent"@en ,
+                                                                                                                 "Perdurant"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Process"@en .
+
+
+###  https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49
+<https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "Work"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Elaboration"@en .
+
+
+###  https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0
+<https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> ;
+                                                                  owl:disjointUnionOf ( <https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a>
+                                                                                        <https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea>
+                                                                                      ) ;
+                                                                  rdfs:comment """A chemical entity comprises the two different ways to represents matter: as single recognizable particle entity (molecular entity) and as a composition of particle entities (substance).
+
+This distinction is not well assessed in actual chemical nomenclature, in which an element name refers to both the pure elemental substance or the atom.
+
+In the EMMO we force the adoption of a more strict categorization based on mereotopology.
+
+The class Material hosts the subclasses for which a substance can be identified without necessarily considering its nature of molecule/atom or substance (e.g. hydrocarbon is the class of both hydrocarbon molecules or gases).""" ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ChemicalEntity"@en .
+
+
+###  https://w3id.org/emmo#EMMO_49267eba_5548_4163_8f36_518d65b583f9
+<https://w3id.org/emmo#EMMO_49267eba_5548_4163_8f36_518d65b583f9> rdf:type owl:Class ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Perspective"@en .
+
+
+###  https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d
+<https://w3id.org/emmo#EMMO_49804605_c0fe_4538_abda_f70ba1dc8a5d> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "SubProcess"@en .
+
+
+###  https://w3id.org/emmo#EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32
+<https://w3id.org/emmo#EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "InorganicCompound"@en .
+
+
+###  https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c
+<https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "CompositePhysicalObject"@en .
+
+
+###  https://w3id.org/emmo#EMMO_592b1d98_4736_4cac_9b62_849b8dbe11c7
+<https://w3id.org/emmo#EMMO_592b1d98_4736_4cac_9b62_849b8dbe11c7> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ProcessEngineeringProcess"@en .
+
+
+###  https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1
+<https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726> ;
+                                                                  owl:disjointUnionOf ( <https://w3id.org/emmo#EMMO_1c16bb7f_5400_4498_8ef2_54392908da4e>
+                                                                                        <https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644>
+                                                                                        <https://w3id.org/emmo#EMMO_f13672a3_59cc_40ed_8def_65009a8f74e6>
+                                                                                      ) ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalSubstance"@en .
+
+
+###  https://w3id.org/emmo#EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c
+<https://w3id.org/emmo#EMMO_64963ed6_39c9_4258_85e0_6466c4b5420c> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Workflow"@en .
+
+
+###  https://w3id.org/emmo#EMMO_660a4964_0333_4663_bc66_e93ef59b0679
+<https://w3id.org/emmo#EMMO_660a4964_0333_4663_bc66_e93ef59b0679> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "MesoscopicSubstance"@en .
+
+
+###  https://w3id.org/emmo#EMMO_6c739b1a_a774_4416_bb31_1961486fa9ed
+<https://w3id.org/emmo#EMMO_6c739b1a_a774_4416_bb31_1961486fa9ed> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "Theorization"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Theorisation"@en .
+
+
+###  https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644
+<https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> ;
+                                                                  owl:disjointWith <https://w3id.org/emmo#EMMO_f13672a3_59cc_40ed_8def_65009a8f74e6> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "OrdinaryMatter"@en .
+
+
+###  https://w3id.org/emmo#EMMO_704630b8_fee3_49b9_baca_40e2dd276370
+<https://w3id.org/emmo#EMMO_704630b8_fee3_49b9_baca_40e2dd276370> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "OrganicCompound"@en .
+
+
+###  https://w3id.org/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a
+<https://w3id.org/emmo#EMMO_71d1c8f0_c6e3_44b5_a4b6_1b74ff35698a> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#altLabel> "ContinuumManufacturing"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "MaterialsProcessing"@en .
+
+
+###  https://w3id.org/emmo#EMMO_7b42954f_0b91_4b3a_a65e_2470202cf548
+<https://w3id.org/emmo#EMMO_7b42954f_0b91_4b3a_a65e_2470202cf548> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98> ,
+                                                                                  <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> ,
+                                                                                  <https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Hadron"@en .
+
+
+###  https://w3id.org/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2
+<https://w3id.org/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ContinuumSubstance"@en .
+
+
+###  https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3
+<https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726> ;
+                                                                  owl:disjointUnionOf ( <https://w3id.org/emmo#EMMO_1f19b65b_35bf_4662_a318_7f1c147cb3b6>
+                                                                                        <https://w3id.org/emmo#EMMO_29108c7c_9087_4992_ab1c_02561665df21>
+                                                                                      ) ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "CompositePhysicalParticle"@en .
+
+
+###  https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b
+<https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_2b9cbfb5_dbd0_4a68_9c6f_acc41b40dd72> ;
+                                                                  rdfs:seeAlso "DIN 8580:2020"@en ,
+                                                                               """ISO 15531-1:2004
+manufacturing: function or act of converting or transforming material from raw material or semi-finished state to a state of further completion"""@en ,
+                                                                               """ISO 18435-1:2009
+manufacturing process: set of processes in manufacturing involving a flow and/or transformation of material, information, energy, control, or any other element in a manufacturing area"""@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ManufacturingProcess"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget """ISO 15531-1:2004
+manufacturing: function or act of converting or transforming material from raw material or semi-finished state to a state of further completion"""@en ;
+   rdfs:isDefinedBy "https://www.iso.org/obp/ui/#iso:std:iso:15531:-1:ed-1:v1:en:term:3.6.22"^^xsd:anyURI
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b> ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget """ISO 18435-1:2009
+manufacturing process: set of processes in manufacturing involving a flow and/or transformation of material, information, energy, control, or any other element in a manufacturing area"""@en ;
+   rdfs:isDefinedBy "https://www.iso.org/obp/ui/#iso:std:iso:18435:-1:ed-1:v1:en:term:3.16"^^xsd:anyURI
+ ] .
+
+
+###  https://w3id.org/emmo#EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54
+<https://w3id.org/emmo#EMMO_a633c6f8_4269_4870_9b28_f5ca1783fd54> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Stage"@en .
+
+
+###  https://w3id.org/emmo#EMMO_b56c3aa6_28e5_4f9b_a4a5_93d8c68e1570
+<https://w3id.org/emmo#EMMO_b56c3aa6_28e5_4f9b_a4a5_93d8c68e1570> rdf:type owl:Class ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalInteractingConvex" .
+
+
+###  https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c
+<https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Project"@en .
+
+
+###  https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352
+<https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c> ,
+                                                                                  <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> ;
+                                                                  owl:disjointUnionOf ( <https://w3id.org/emmo#EMMO_660a4964_0333_4663_bc66_e93ef59b0679>
+                                                                                        <https://w3id.org/emmo#EMMO_8b0923ab_b500_477b_9ce9_8b3a3e4dc4f2>
+                                                                                      ) ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Substance"@en .
+
+
+###  https://w3id.org/emmo#EMMO_be0a7278_b4e6_4bca_88ba_de3f67a478e2
+<https://w3id.org/emmo#EMMO_be0a7278_b4e6_4bca_88ba_de3f67a478e2> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_1c16bb7f_5400_4498_8ef2_54392908da4e> ,
+                                                                                  <https://w3id.org/emmo#EMMO_1f19b65b_35bf_4662_a318_7f1c147cb3b6> ,
+                                                                                  <https://w3id.org/emmo#EMMO_7b42954f_0b91_4b3a_a65e_2470202cf548> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Meson"@en .
+
+
+###  https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea
+<https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0> ,
+                                                                                  <https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352> ;
+                                                                  rdfs:comment "A substance is always composed of more than one molecular entity. It lays in the continuum or mesoscopic domain." ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ChemicalSubstance"@en .
+
+
+###  https://w3id.org/emmo#EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b
+<https://w3id.org/emmo#EMMO_e04884d9_eda6_487e_93d5_7722d7eda96b> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_49267eba_5548_4163_8f36_518d65b583f9> ;
+                                                                  rdfs:comment """The interest is on the 4D object as it extends in time (process) or as it persists in time (object):
+- object (focus on spatial configuration)
+- process (focus on temporal evolution)
+
+The concepts of endurant and perdurant implicitly rely on the concept of instantaneous 3D snapshot of the world object, that in the EMMO is not allowed since everything extends in 4D and there are no abstract objects. Moreover, time is a measured property in the EMMO and not an objective characteristic of an object, and cannot be used as temporal index to identify endurant position in time. 
+
+For this reason an individual in the EMMO can always be classified both endurant and perdurant, due to its nature of 4D entity (e.g. an individual may belong both to the class of runners and the class of running process), and the distinction is purely semantic.  In fact, the object/process distinction is simply a matter of convenience in a 4D approach since a temporal extension is always the case, and stationarity depends upon observer time scale. For this reason, the same individual (4D object) may play the role of a process or of an object class depending on the object to which it relates.
+
+Nevertheless, it is useful to introduce categorizations that characterize persistency through continuant and occurrent concepts, even if not ontologically but only cognitively defined. This is also due to the fact that our language distinguish between nouns and verbs to address things, forcing the separation between things that happens and things that persist.
+
+This perspective provides classes conceptually similar to the concepts of endurant and perdurant (a.k.a. continuant and occurrent). We claim that this distinction is motivated by our cognitive bias, and we do not commit to the fact that both these kinds of entity “do really exist”. For this reason, a whole instance can be both process and object, according to different cognitive approaches (see Wonderweb D17).
+
+The distinction between endurant and perdurant as usually introduced in literature (see BFO SPAN/SNAP approach) is then no more ontological, but can still be expressed through the introduction of ad hoc primitive definitions that follow the interpreter endurantist or perdurantist attitude."""@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Persistence"@en .
+
+
+###  https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b
+<https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea> ;
+                                                                  owl:disjointUnionOf ( <https://w3id.org/emmo#EMMO_4e659c69_ca2d_4569_8a96_f99857a1fa32>
+                                                                                        <https://w3id.org/emmo#EMMO_704630b8_fee3_49b9_baca_40e2dd276370>
+                                                                                      ) ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ChemicalCompound"@en .
+
+
+###  https://w3id.org/emmo#EMMO_f13672a3_59cc_40ed_8def_65009a8f74e6
+<https://w3id.org/emmo#EMMO_f13672a3_59cc_40ed_8def_65009a8f74e6> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "AntiMatter"@en .
+
+
+###  https://w3id.org/emmo#EMMO_f68858dd_64f4_4877_b7fb_70d04fbe5bab
+<https://w3id.org/emmo#EMMO_f68858dd_64f4_4877_b7fb_70d04fbe5bab> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ConstitutiveProcess"@en .
+
+
+###  https://w3id.org/emmo#EMMO_f835f4d4_c665_403d_ab25_dca5cc74be52
+<https://w3id.org/emmo#EMMO_f835f4d4_c665_403d_ab25_dca5cc74be52> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_32f55395_8b94_40de_a103_bffa5c121d98> ,
+                                                                                  <https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1> ,
+                                                                                  <https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Nucleus"@en .
+
+
+###  https://w3id.org/emmo#EMMO_fdae3f5a_8f8c_4875_a784_5beda43d3009
+<https://w3id.org/emmo#EMMO_fdae3f5a_8f8c_4875_a784_5beda43d3009> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://w3id.org/emmo#EMMO_b56c3aa6_28e5_4f9b_a4a5_93d8c68e1570> ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "PhysicalyUnbonded"@en .
+
+
+###  https://w3id.org/emmo/domain/battery#battery_7c072505_7ea6_4bfd_8403_7133b3a4b806
+<https://w3id.org/emmo/domain/battery#battery_7c072505_7ea6_4bfd_8403_7133b3a4b806> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c> ;
+                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "IntentionalBatteryProcess"@en .
+
+
+###  https://w3id.org/emmo/domain/battery#battery_f768ea27_09ba_4875_a5cc_2c644b0753a3
+<https://w3id.org/emmo/domain/battery#battery_f768ea27_09ba_4875_a5cc_2c644b0753a3> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7> ;
+                                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryPhenomenon"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#CharacterisationExperiment
+<https://w3id.org/emmo/domain/chameo#CharacterisationExperiment> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db> ;
+                                                                 rdfs:comment "" ;
+                                                                 rdfs:label "CharacterisationExperiment"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "CharacterisationExperiment"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#CharacterisationProcedure
+<https://w3id.org/emmo/domain/chameo#CharacterisationProcedure> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <https://w3id.org/emmo#EMMO_472a0ca2_58bf_4618_b561_6fe68bd9fd49> ;
+                                                                rdfs:comment "" ;
+                                                                rdfs:label "CharacterisationProcedure"@en ;
+                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "CharacterisationProcedure"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#ProbeSampleInteraction
+<https://w3id.org/emmo/domain/chameo#ProbeSampleInteraction> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://w3id.org/emmo#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce> ;
+                                                             rdfs:comment "" ;
+                                                             rdfs:label "ProbeSampleInteraction"@en ;
+                                                             <http://www.w3.org/2004/02/skos/core#prefLabel> "ProbeSampleInteraction"@en .
+
+
+###  https://w3id.org/emmo/domain/chameo#Signal
+<https://w3id.org/emmo/domain/chameo#Signal> rdf:type owl:Class .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_0f2f65a7_5cc4_4c86_a4d0_676771c646f1> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Solvent"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_29fd347b_6a15_4c98_a982_84cf555b0b86
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_29fd347b_6a15_4c98_a982_84cf555b0b86> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo/domain/chemicalsubstance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "WeakAcid"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_371fbcaa_d782_4f4c_86e3_58e1a58d3bea
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_371fbcaa_d782_4f4c_86e3_58e1a58d3bea> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo/domain/chemicalsubstance#substance_a9218f8f_2e80_497e_b968_b4947cf21802> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#altLabel> "ZrO2"@en ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "ZirconiumIVOxide"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_3899a9c9_9b34_443e_8ce6_0257589bb38a
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_3899a9c9_9b34_443e_8ce6_0257589bb38a> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Solute"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_7beec353_bad9_46fc_a035_a76b131fb32b
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_7beec353_bad9_46fc_a035_a76b131fb32b> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                                                owl:disjointWith <https://w3id.org/emmo/domain/chemicalsubstance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#altLabel> "AlkalineSubstance"@en ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Base"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_81b90332_8b8e_407b_a8fd_517306d56a59
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_81b90332_8b8e_407b_a8fd_517306d56a59> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "SolventCompound"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_8e5448fc_1916_4afb_9fd9_2489797f6922
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_8e5448fc_1916_4afb_9fd9_2489797f6922> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo/domain/chemicalsubstance#substance_7beec353_bad9_46fc_a035_a76b131fb32b> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "WeakBaseCompound"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_a9218f8f_2e80_497e_b968_b4947cf21802
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_a9218f8f_2e80_497e_b968_b4947cf21802> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "ZirconiumOxideCompound"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_bed1a22c_8b61_467a_86a0_d24c7b910653
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_bed1a22c_8b61_467a_86a0_d24c7b910653> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo/domain/chemicalsubstance#substance_7beec353_bad9_46fc_a035_a76b131fb32b> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "StrongBaseCompound"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Acid"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_de038959_9251_48d1_a141_3684f14d957f
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_de038959_9251_48d1_a141_3684f14d957f> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "AmphotericCompound"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_edae7b22_461b_432b_b737_3c93feb69b0e
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_edae7b22_461b_432b_b737_3c93feb69b0e> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "Salt"@en .
+
+
+###  https://w3id.org/emmo/domain/chemicalsubstance#substance_f5b930f9_2f95_4268_993c_ff6b57ae7691
+<https://w3id.org/emmo/domain/chemicalsubstance#substance_f5b930f9_2f95_4268_993c_ff6b57ae7691> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <https://w3id.org/emmo/domain/chemicalsubstance#substance_cc155ed5_c60c_4d9f_bfad_fbf6b7c77e57> ;
+                                                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "StrongAcid"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_0471ec77_91bc_4a78_be31_b6af613e5966
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_0471ec77_91bc_4a78_be31_b6af613e5966> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#altLabel> "Neutralization"@en ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Neutralisation"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_06d8e1ee_924a_4915_998d_33a69f41dadc
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_06d8e1ee_924a_4915_998d_33a69f41dadc> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4> ;
+                                                                                                      rdfs:comment "the opposite of a charging process"@en ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#altLabel> "ElectrochemicalDischarging"@en ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Discharge" .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_19abaccd_43be_4048_965c_e4fb63c5951b
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_19abaccd_43be_4048_965c_e4fb63c5951b> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrochemicalPhenomenon"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_25d01d13_3ca5_4619_98c1_8ebbd01ad794
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_25d01d13_3ca5_4619_98c1_8ebbd01ad794> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ContinuousServiceTest"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_46957d35_0f8b_4d92_acb3_aded6ce774a1
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_46957d35_0f8b_4d92_acb3_aded6ce774a1> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "VoltageControlledProcess"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_5548f188_df00_4c05_ae98_7846e92efe36
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_5548f188_df00_4c05_ae98_7846e92efe36> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "CurrentControlledProcess"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_83d2c2d4_ffa9_42f4_9264_a0c59c657607
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_83d2c2d4_ffa9_42f4_9264_a0c59c657607> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#altLabel> "CellReversal"@en ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "PolarityReversal"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_8a1c9a7b_978c_4421_a9c1_d0b07b42aab9
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_8a1c9a7b_978c_4421_a9c1_d0b07b42aab9> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo#EMMO_314d0bd5_67ed_437e_a609_36d46147cea7> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ChemicalReaction"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_a9873d3d_945b_40ba_b9cd_8dfb64cec88f
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_a9873d3d_945b_40ba_b9cd_8dfb64cec88f> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#altLabel> "ElectrochemicalCharging"@en ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Charge"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_c91164b8_5e56_4c94_bad1_d7ada576b0e7
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_c91164b8_5e56_4c94_bad1_d7ada576b0e7> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo#EMMO_22522299_4091_4d1f_82a2_3890492df6db> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "StorageTest"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_c936bfbe_7a0c_4185_a317_db1ce2c3c38c
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_c936bfbe_7a0c_4185_a317_db1ce2c3c38c> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "CathodicProtection"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_d3e2d213_d078_4b9a_8beb_62f063e57d69
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_d3e2d213_d078_4b9a_8beb_62f063e57d69> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4> ;
+                                                                                                      rdfs:comment "in a secondary battery these operations may consist of a sequence of a discharge followed by a charge or a charge followed by a discharge under specified conditions"@en ,
+                                                                                                                   "this sequence may include rest periods"@en ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#altLabel> "ChargeCycle"@en ,
+                                                                                                                                                     "ElectrochemicalCycling"@en ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Cycling"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_d3e2d213_d078_4b9a_8beb_62f063e57d69> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "in a secondary battery these operations may consist of a sequence of a discharge followed by a charge or a charge followed by a discharge under specified conditions"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_d3e2d213_d078_4b9a_8beb_62f063e57d69> ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "this sequence may include rest periods"@en ;
+   <http://purl.org/dc/terms/source> "International Electrotechnical Commission (IEC), IEC 60050 - International Electrotechnical Vocabulary, retrieved from: https://www.electropedia.org"
+ ] .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f0c24970_4c14_4207_bd78_5f2181a67085
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f0c24970_4c14_4207_bd78_5f2181a67085> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Electrodeposition"@en .
+
+
+###  https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4
+<https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f49b84d4_e1f9_424c_bb22_8cea23c0a7d4> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://w3id.org/emmo#EMMO_bafc17b5_9be4_4823_8bbe_ab4e90b6738c> ;
+                                                                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ElectrochemicalMethod"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :ConductiveSalt
+                :ElectrolyteAdditives
+                :ElectrolyteSolvent
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
